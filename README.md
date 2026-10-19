@@ -82,8 +82,9 @@ Echo went live at 18:30:58 UTC on Oct 19 2026 and mirrored 8 moves by leader `0x
 
 ## X posts
 
-- _to be added_
-- _to be added_
+- https://x.com/musepriest/status/2112260350813122762 — what echo is (dashboard screenshot; repo linked in the reply)
+- https://x.com/musepriest/status/2112261154974134765 — live on Tokyo testnet, with a real fill tx
+- https://x.com/musepriest/status/2112261915670159754 — why echo only copies consistent traders
 
 ## Roadmap
 
