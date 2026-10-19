@@ -1,0 +1,5617 @@
+{
+  "generatedAt": "2026-10-19T07:40:04.880Z",
+  "rules": {
+    "windowDays": 5,
+    "minCloses": 8,
+    "minProfitFactor": 1.3,
+    "maxEventsPerDay": 400,
+    "minMedianHoldMin": 5,
+    "maxBiggestWinShare": 0.6,
+    "maxEstLeverage": 6,
+    "fundedUsd": 1000
+  },
+  "scored": 5761,
+  "eligible": 35,
+  "leaders": [
+    {
+      "account": "0x9ca8dc987deca9a3c94f6cf1b95eb12df5f6210c",
+      "score": 491.8757888392457,
+      "eligible": true,
+      "reasons": [
+        "47 closes, 98% wins, profit factor 65.45, +1184 USDso with both halves positive, median hold 2367 min"
+      ],
+      "realizedPnlUsd": 1183.9156652483803,
+      "pnlFirstHalfUsd": 291.37039799999997,
+      "pnlSecondHalfUsd": 892.5452672483801,
+      "closes": 47,
+      "wins": 46,
+      "winRate": 0.9787234042553191,
+      "profitFactor": 65.44886876820404,
+      "biggestWinShare": 0.13422948149279362,
+      "eventsPerDay": 23.20889561228024,
+      "medianHoldMin": 2367.3999999999996,
+      "markets": [
+        "NEAR",
+        "ETH",
+        "BTC",
+        "HYPE",
+        "ZEC",
+        "ZRO",
+        "WLD",
+        "LIT",
+        "SUI"
+      ],
+      "maxNotionalUsd": 5574.320050977826,
+      "estLeverage": 5.574320050977827,
+      "lastActive": 1792371926
+    },
+    {
+      "account": "0x8579fd904c93ee96fb7767db0c85e92461a2abe7",
+      "score": 287.7981479596526,
+      "eligible": true,
+      "reasons": [
+        "57 closes, 58% wins, profit factor 4.06, +644 USDso with both halves positive, median hold 596 min"
+      ],
+      "realizedPnlUsd": 644.4144030000002,
+      "pnlFirstHalfUsd": 261.0038110000001,
+      "pnlSecondHalfUsd": 383.410592,
+      "closes": 57,
+      "wins": 33,
+      "winRate": 0.5789473684210527,
+      "profitFactor": 4.058630050285052,
+      "biggestWinShare": 0.0979917395062411,
+      "eventsPerDay": 36.871287501529714,
+      "medianHoldMin": 596.0083333333333,
+      "markets": [
+        "ETH",
+        "SOL",
+        "NEAR",
+        "BTC",
+        "XRP",
+        "HYPE",
+        "ZEC",
+        "SUI",
+        "AVAX",
+        "DOGE",
+        "ZRO"
+      ],
+      "maxNotionalUsd": 4795.380701535534,
+      "estLeverage": 4.795380701535534,
+      "lastActive": 1792395317
+    },
+    {
+      "account": "0x010b8289bc78cf704d5a62f7cb8f3835b2f0893e",
+      "score": 63.84964537087244,
+      "eligible": true,
+      "reasons": [
+        "16 closes, 100% wins, profit factor 99.00, +236 USDso with both halves positive, median hold 402 min"
+      ],
+      "realizedPnlUsd": 236.02715599999982,
+      "pnlFirstHalfUsd": 62.63622599999999,
+      "pnlSecondHalfUsd": 173.39092999999983,
+      "closes": 16,
+      "wins": 16,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.2808994941317554,
+      "eventsPerDay": 16.82555700135433,
+      "medianHoldMin": 402.3833333333333,
+      "markets": [
+        "NEAR",
+        "ETH",
+        "SUI",
+        "XRP",
+        "HYPE",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 5050.64308431969,
+      "estLeverage": 5.050643084319691,
+      "lastActive": 1792330405
+    },
+    {
+      "account": "0xac14721b23a5f58eedafa89089e5c297cb95eda3",
+      "score": 63.712377874525565,
+      "eligible": true,
+      "reasons": [
+        "24 closes, 96% wins, profit factor 12.65, +198 USDso with both halves positive, median hold 1452 min"
+      ],
+      "realizedPnlUsd": 198.4030437338384,
+      "pnlFirstHalfUsd": 173.16723273383838,
+      "pnlSecondHalfUsd": 25.235811000000005,
+      "closes": 24,
+      "wins": 23,
+      "winRate": 0.9583333333333334,
+      "profitFactor": 12.648662228843289,
+      "biggestWinShare": 0.15930684974988968,
+      "eventsPerDay": 21.84100045105552,
+      "medianHoldMin": 1451.6333333333334,
+      "markets": [
+        "SUI",
+        "NEAR",
+        "ADA",
+        "BTC",
+        "AVAX",
+        "XLM",
+        "HYPE",
+        "SOL",
+        "LINK",
+        "DOGE",
+        "LIT",
+        "XRP",
+        "BNB",
+        "WLD",
+        "ETH",
+        "TAO"
+      ],
+      "maxNotionalUsd": 5497.703576328988,
+      "estLeverage": 5.497703576328988,
+      "lastActive": 1792280400
+    },
+    {
+      "account": "0x90907ffa665a12635782efee5699a35838507ff9",
+      "score": 45.14898945972462,
+      "eligible": true,
+      "reasons": [
+        "14 closes, 100% wins, profit factor 99.00, +97 USDso with both halves positive, median hold 333 min"
+      ],
+      "realizedPnlUsd": 97.187645,
+      "pnlFirstHalfUsd": 91.857707,
+      "pnlSecondHalfUsd": 5.329938,
+      "closes": 14,
+      "wins": 14,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.23753897936306617,
+      "eventsPerDay": 8.604425152558903,
+      "medianHoldMin": 333,
+      "markets": [
+        "BTC",
+        "XRP",
+        "SUI",
+        "DOGE",
+        "TAO"
+      ],
+      "maxNotionalUsd": 3036.3539691689075,
+      "estLeverage": 3.0363539691689074,
+      "lastActive": 1792393266
+    },
+    {
+      "account": "0x1028b73c72aa7f5095772c069fa58e75c7e43919",
+      "score": 44.83044662666933,
+      "eligible": true,
+      "reasons": [
+        "11 closes, 100% wins, profit factor 99.00, +136 USDso with both halves positive, median hold 51 min"
+      ],
+      "realizedPnlUsd": 135.50948400000001,
+      "pnlFirstHalfUsd": 17.403071,
+      "pnlSecondHalfUsd": 118.106413,
+      "closes": 11,
+      "wins": 11,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.44085264949807224,
+      "eventsPerDay": 4.401146131805158,
+      "medianHoldMin": 51.425000000000004,
+      "markets": [
+        "XRP",
+        "SUI",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 2959.2609585122996,
+      "estLeverage": 2.9592609585122998,
+      "lastActive": 1792392911
+    },
+    {
+      "account": "0xe5dc88d9df550a742ad4b089c2522143a91e5223",
+      "score": 25.331403666666663,
+      "eligible": true,
+      "reasons": [
+        "11 closes, 100% wins, profit factor 99.00, +64 USDso with both halves positive, median hold 1079 min"
+      ],
+      "realizedPnlUsd": 63.90978,
+      "pnlFirstHalfUsd": 58.206179999999996,
+      "pnlSecondHalfUsd": 5.7036,
+      "closes": 11,
+      "wins": 11,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.33009251479194573,
+      "eventsPerDay": 8.627162781780711,
+      "medianHoldMin": 1079.2,
+      "markets": [
+        "NEAR",
+        "SOL",
+        "BTC",
+        "SUI",
+        "ADA",
+        "DOGE",
+        "WLD",
+        "AVAX"
+      ],
+      "maxNotionalUsd": 2003.0008063645569,
+      "estLeverage": 2.003000806364557,
+      "lastActive": 1792329478
+    },
+    {
+      "account": "0x3c84cfaf68c2c871fa3e4016c0c3509991ef46c2",
+      "score": 25.17190544651967,
+      "eligible": true,
+      "reasons": [
+        "14 closes, 64% wins, profit factor 2.48, +173 USDso with both halves positive, median hold 1100 min"
+      ],
+      "realizedPnlUsd": 173.23785132249873,
+      "pnlFirstHalfUsd": 154.17145000000002,
+      "pnlSecondHalfUsd": 19.06640132249875,
+      "closes": 14,
+      "wins": 9,
+      "winRate": 0.6428571428571429,
+      "profitFactor": 2.4806569716450055,
+      "biggestWinShare": 0.19986857912452743,
+      "eventsPerDay": 12.02804518954127,
+      "medianHoldMin": 1099.95,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "BTC",
+        "HYPE",
+        "SUI",
+        "ETH",
+        "LINK"
+      ],
+      "maxNotionalUsd": 5054.24697483729,
+      "estLeverage": 5.05424697483729,
+      "lastActive": 1792370275
+    },
+    {
+      "account": "0xf4d6a96e0c00d94f85f5426d6b9f81093a5815ae",
+      "score": 21.38691297111777,
+      "eligible": true,
+      "reasons": [
+        "8 closes, 75% wins, profit factor 9.03, +82 USDso with both halves positive, median hold 1038 min"
+      ],
+      "realizedPnlUsd": 82.39981,
+      "pnlFirstHalfUsd": 42.444300000000005,
+      "pnlSecondHalfUsd": 39.95551,
+      "closes": 8,
+      "wins": 6,
+      "winRate": 0.75,
+      "profitFactor": 9.02553860838398,
+      "biggestWinShare": 0.5419696826303125,
+      "eventsPerDay": 8.4312037196487,
+      "medianHoldMin": 1037.8666666666666,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 2259.140596815928,
+      "estLeverage": 2.2591405968159277,
+      "lastActive": 1792256320
+    },
+    {
+      "account": "0x650702f55e7d9961504dedaf8113ff441a905d5f",
+      "score": 20.900767240595783,
+      "eligible": true,
+      "reasons": [
+        "12 closes, 100% wins, profit factor 99.00, +82 USDso with both halves positive, median hold 191 min"
+      ],
+      "realizedPnlUsd": 82.44183062626362,
+      "pnlFirstHalfUsd": 46.76561262626362,
+      "pnlSecondHalfUsd": 35.676218,
+      "closes": 12,
+      "wins": 12,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.43274412672532975,
+      "eventsPerDay": 7.853593503817719,
+      "medianHoldMin": 191.22500000000002,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "ETH",
+        "BTC",
+        "VVV"
+      ],
+      "maxNotionalUsd": 4027.5125672790846,
+      "estLeverage": 4.027512567279085,
+      "lastActive": 1792382880
+    },
+    {
+      "account": "0xae01fb3f7c413bca18c102a2014b711ffb699c6d",
+      "score": 17.67371145480581,
+      "eligible": true,
+      "reasons": [
+        "26 closes, 69% wins, profit factor 1.89, +165 USDso with both halves positive, median hold 124 min"
+      ],
+      "realizedPnlUsd": 165.27676699999995,
+      "pnlFirstHalfUsd": 117.173338,
+      "pnlSecondHalfUsd": 48.103429,
+      "closes": 26,
+      "wins": 18,
+      "winRate": 0.6923076923076923,
+      "profitFactor": 1.8915326262390502,
+      "biggestWinShare": 0.29226420604514336,
+      "eventsPerDay": 16.41309040670063,
+      "medianHoldMin": 123.86666666666666,
+      "markets": [
+        "XRP",
+        "DOGE",
+        "NEAR",
+        "BTC",
+        "WLD",
+        "LINK",
+        "ETH",
+        "BNB",
+        "SOL",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 5383.162644779683,
+      "estLeverage": 5.383162644779683,
+      "lastActive": 1792366225
+    },
+    {
+      "account": "0xecdb221805287e07247d85ae5645cddef1beeb05",
+      "score": 15.511803665629577,
+      "eligible": true,
+      "reasons": [
+        "20 closes, 55% wins, profit factor 4.74, +82 USDso with both halves positive, median hold 10 min"
+      ],
+      "realizedPnlUsd": 81.624979,
+      "pnlFirstHalfUsd": 39.4332,
+      "pnlSecondHalfUsd": 42.191779,
+      "closes": 20,
+      "wins": 11,
+      "winRate": 0.55,
+      "profitFactor": 4.73686780764353,
+      "biggestWinShare": 0.4063598982693541,
+      "eventsPerDay": 8.580792531532426,
+      "medianHoldMin": 10.283333333333333,
+      "markets": [
+        "WLD",
+        "SOL",
+        "NEAR",
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "maxNotionalUsd": 5918.821878864949,
+      "estLeverage": 5.918821878864949,
+      "lastActive": 1792369891
+    },
+    {
+      "account": "0x2efd95eb8359d88df5608d7809c3f92679d0f47d",
+      "score": 13.324443724059154,
+      "eligible": true,
+      "reasons": [
+        "26 closes, 46% wins, profit factor 6.16, +33 USDso with both halves positive, median hold 1032 min"
+      ],
+      "realizedPnlUsd": 32.695888000000004,
+      "pnlFirstHalfUsd": 10.260176,
+      "pnlSecondHalfUsd": 22.435712000000006,
+      "closes": 26,
+      "wins": 12,
+      "winRate": 0.46153846153846156,
+      "profitFactor": 6.156188772414107,
+      "biggestWinShare": 0.43135824734820705,
+      "eventsPerDay": 15.53165353387063,
+      "medianHoldMin": 1031.5583333333334,
+      "markets": [
+        "SOL",
+        "BTC",
+        "NEAR",
+        "HYPE",
+        "BNB",
+        "ETH",
+        "DOGE",
+        "XRP"
+      ],
+      "maxNotionalUsd": 1510.987852646004,
+      "estLeverage": 1.510987852646004,
+      "lastActive": 1792378419
+    },
+    {
+      "account": "0x1d809e12be378229f8f02455965d97f4fa432aa1",
+      "score": 11.65552860054661,
+      "eligible": true,
+      "reasons": [
+        "14 closes, 86% wins, profit factor 1.55, +120 USDso with both halves positive, median hold 1041 min"
+      ],
+      "realizedPnlUsd": 119.68751899999998,
+      "pnlFirstHalfUsd": 41.037299000000004,
+      "pnlSecondHalfUsd": 78.65021999999999,
+      "closes": 14,
+      "wins": 12,
+      "winRate": 0.8571428571428571,
+      "profitFactor": 1.554989696587488,
+      "biggestWinShare": 0.3152718586197469,
+      "eventsPerDay": 10.61510757274192,
+      "medianHoldMin": 1040.7,
+      "markets": [
+        "TAO",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 4045.4264264081726,
+      "estLeverage": 4.045426426408173,
+      "lastActive": 1792366975
+    },
+    {
+      "account": "0x96f1179bc546492e49d366c6c3a528269fdac398",
+      "score": 9.936599995129944,
+      "eligible": true,
+      "reasons": [
+        "10 closes, 80% wins, profit factor 22.74, +30 USDso with both halves positive, median hold 769 min"
+      ],
+      "realizedPnlUsd": 30.061833999999998,
+      "pnlFirstHalfUsd": 0.44507855730337076,
+      "pnlSecondHalfUsd": 29.61675544269663,
+      "closes": 10,
+      "wins": 8,
+      "winRate": 0.8,
+      "profitFactor": 22.742972660205407,
+      "biggestWinShare": 0.23506714103801732,
+      "eventsPerDay": 7.10005489394293,
+      "medianHoldMin": 768.6666666666667,
+      "markets": [
+        "BTC",
+        "SOL",
+        "ETH",
+        "HYPE",
+        "NEAR",
+        "XRP"
+      ],
+      "maxNotionalUsd": 4049.850866234823,
+      "estLeverage": 4.049850866234823,
+      "lastActive": 1792380183
+    },
+    {
+      "account": "0x8ca7e26d9c01646bce0b68bb4e8b1acc987e8200",
+      "score": 8.759912678244062,
+      "eligible": true,
+      "reasons": [
+        "24 closes, 96% wins, profit factor 14.40, +33 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 33.265903,
+      "pnlFirstHalfUsd": 1.6013765538461535,
+      "pnlSecondHalfUsd": 31.664526446153847,
+      "closes": 24,
+      "wins": 23,
+      "winRate": 0.9583333333333334,
+      "profitFactor": 14.395718971494428,
+      "biggestWinShare": 0.3531712782377799,
+      "eventsPerDay": 11.609373750299929,
+      "medianHoldMin": 62.21666666666667,
+      "markets": [
+        "BTC",
+        "SOL",
+        "ETH",
+        "XRP",
+        "SUI",
+        "BNB",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 5158.318221060772,
+      "estLeverage": 5.158318221060772,
+      "lastActive": 1792389265
+    },
+    {
+      "account": "0x7a8f843ac189e55e4689f18ef3f5b97ed310e8bc",
+      "score": 5.708970717875486,
+      "eligible": true,
+      "reasons": [
+        "15 closes, 60% wins, profit factor 1.43, +47 USDso with both halves positive, median hold 1795 min"
+      ],
+      "realizedPnlUsd": 47.296047000000016,
+      "pnlFirstHalfUsd": 3.0618,
+      "pnlSecondHalfUsd": 44.23424700000001,
+      "closes": 15,
+      "wins": 9,
+      "winRate": 0.6,
+      "profitFactor": 1.4267819348519144,
+      "biggestWinShare": 0.32319219777948394,
+      "eventsPerDay": 7.308210232847698,
+      "medianHoldMin": 1794.9416666666666,
+      "markets": [
+        "SUI",
+        "NEAR",
+        "BNB",
+        "HYPE",
+        "ADA",
+        "ZEC",
+        "LINK",
+        "BTC"
+      ],
+      "maxNotionalUsd": 2606.134878169498,
+      "estLeverage": 2.606134878169498,
+      "lastActive": 1792389760
+    },
+    {
+      "account": "0x188009dc29dc66f4c8f6b9f2728ef4a6053587f2",
+      "score": 5.700225416666667,
+      "eligible": true,
+      "reasons": [
+        "10 closes, 100% wins, profit factor 99.00, +12 USDso with both halves positive, median hold 1296 min"
+      ],
+      "realizedPnlUsd": 12.110723,
+      "pnlFirstHalfUsd": 6.165916,
+      "pnlSecondHalfUsd": 5.944807,
+      "closes": 10,
+      "wins": 10,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.1931270329607902,
+      "eventsPerDay": 6.203797084137039,
+      "medianHoldMin": 1296.15,
+      "markets": [
+        "BTC",
+        "DOGE",
+        "HYPE",
+        "AVAX",
+        "ZEC",
+        "PUMP",
+        "ADA"
+      ],
+      "maxNotionalUsd": 814.9342396815731,
+      "estLeverage": 0.8149342396815731,
+      "lastActive": 1792390656
+    },
+    {
+      "account": "0x57c16ee0cba799e2635d5497c1a06613da18d08d",
+      "score": 2.993232474178428,
+      "eligible": true,
+      "reasons": [
+        "9 closes, 89% wins, profit factor 59.96, +8 USDso with both halves positive, median hold 1492 min"
+      ],
+      "realizedPnlUsd": 8.398412078690257,
+      "pnlFirstHalfUsd": 2.9725340000000005,
+      "pnlSecondHalfUsd": 5.425878078690256,
+      "closes": 9,
+      "wins": 8,
+      "winRate": 0.8888888888888888,
+      "profitFactor": 59.960255530586956,
+      "biggestWinShare": 0.23641663936650828,
+      "eventsPerDay": 7.643459096031725,
+      "medianHoldMin": 1492.1916666666666,
+      "markets": [
+        "ETH",
+        "NEAR",
+        "ADA",
+        "BTC",
+        "XRP",
+        "SUI",
+        "HYPE",
+        "LINK"
+      ],
+      "maxNotionalUsd": 3695.7474605660786,
+      "estLeverage": 3.6957474605660785,
+      "lastActive": 1792382137
+    },
+    {
+      "account": "0x6aad29cca6ed7e1a5e8181e5dcbcbf8a58df0f75",
+      "score": 2.653261873213966,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 63% wins, profit factor 3.11, +8 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 8.476189,
+      "pnlFirstHalfUsd": 6.033187,
+      "pnlSecondHalfUsd": 2.443002,
+      "closes": 19,
+      "wins": 12,
+      "winRate": 0.631578947368421,
+      "profitFactor": 3.1076024418401964,
+      "biggestWinShare": 0.2349704870654374,
+      "eventsPerDay": 10.766183142692823,
+      "medianHoldMin": 61.78333333333333,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 300.69047196317683,
+      "estLeverage": 0.30069047196317683,
+      "lastActive": 1792395093
+    },
+    {
+      "account": "0x0b67c84c58e6b6ff4de9d8456b1485c1b82c3e88",
+      "score": 2.3263253419678382,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 58% wins, profit factor 2.92, +8 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 8.014239,
+      "pnlFirstHalfUsd": 6.070461999999999,
+      "pnlSecondHalfUsd": 1.9437769999999999,
+      "closes": 19,
+      "wins": 11,
+      "winRate": 0.5789473684210527,
+      "profitFactor": 2.9177224912898656,
+      "biggestWinShare": 0.24440628316632468,
+      "eventsPerDay": 10.275134996142967,
+      "medianHoldMin": 61.95,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 296.31502451342965,
+      "estLeverage": 0.29631502451342967,
+      "lastActive": 1792393181
+    },
+    {
+      "account": "0x4464a15cf0df90e9da3419b7387a493c3a0dd3e9",
+      "score": 2.1052358155549293,
+      "eligible": true,
+      "reasons": [
+        "22 closes, 50% wins, profit factor 2.42, +8 USDso with both halves positive, median hold 61 min"
+      ],
+      "realizedPnlUsd": 8.312039,
+      "pnlFirstHalfUsd": 6.64116,
+      "pnlSecondHalfUsd": 1.670879,
+      "closes": 22,
+      "wins": 11,
+      "winRate": 0.5,
+      "profitFactor": 2.4161920491889304,
+      "biggestWinShare": 0.23299335809688332,
+      "eventsPerDay": 11.910899088216059,
+      "medianHoldMin": 61.40833333333333,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 301.98070810535455,
+      "estLeverage": 0.30198070810535455,
+      "lastActive": 1792393744
+    },
+    {
+      "account": "0xd36f27137b220b61edb567d8ad32d998a5a1e7b7",
+      "score": 2.0331902412935765,
+      "eligible": true,
+      "reasons": [
+        "21 closes, 67% wins, profit factor 2.44, +8 USDso with both halves positive, median hold 63 min"
+      ],
+      "realizedPnlUsd": 7.979991,
+      "pnlFirstHalfUsd": 5.726099,
+      "pnlSecondHalfUsd": 2.253892,
+      "closes": 21,
+      "wins": 14,
+      "winRate": 0.6666666666666666,
+      "profitFactor": 2.438112437451951,
+      "biggestWinShare": 0.2259159541500895,
+      "eventsPerDay": 11.350244633914238,
+      "medianHoldMin": 62.56666666666667,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 296.5581049273045,
+      "estLeverage": 0.2965581049273045,
+      "lastActive": 1792394029
+    },
+    {
+      "account": "0xe917bae19ccc340b03d3e348f38c9e1f8ff1eca1",
+      "score": 1.609893075606002,
+      "eligible": true,
+      "reasons": [
+        "21 closes, 62% wins, profit factor 2.33, +7 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 6.7782290000000005,
+      "pnlFirstHalfUsd": 5.729495,
+      "pnlSecondHalfUsd": 1.0487339999999998,
+      "closes": 21,
+      "wins": 13,
+      "winRate": 0.6190476190476191,
+      "profitFactor": 2.3322477983668435,
+      "biggestWinShare": 0.24565097227441357,
+      "eventsPerDay": 11.59668538302489,
+      "medianHoldMin": 61.85,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 298.50274823830324,
+      "estLeverage": 0.29850274823830325,
+      "lastActive": 1792395028
+    },
+    {
+      "account": "0xa30cf2578da21573f9ac49a9a84b03ef47ca6a60",
+      "score": 1.5350011511141741,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 68% wins, profit factor 2.49, +6 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 6.41916,
+      "pnlFirstHalfUsd": 5.650010999999999,
+      "pnlSecondHalfUsd": 0.769149,
+      "closes": 19,
+      "wins": 13,
+      "winRate": 0.6842105263157895,
+      "profitFactor": 2.494027993648852,
+      "biggestWinShare": 0.27179553078443924,
+      "eventsPerDay": 11.350244633914238,
+      "medianHoldMin": 62.208333333333336,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 297.84398607651406,
+      "estLeverage": 0.2978439860765141,
+      "lastActive": 1792394138
+    },
+    {
+      "account": "0xcc3cb8667fd793a8b2307a7ea1daf42b9c626f3a",
+      "score": 1.3994635714529609,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 53% wins, profit factor 2.32, +6 USDso with both halves positive, median hold 63 min"
+      ],
+      "realizedPnlUsd": 6.3155470000000005,
+      "pnlFirstHalfUsd": 5.444291,
+      "pnlSecondHalfUsd": 0.871256,
+      "closes": 19,
+      "wins": 10,
+      "winRate": 0.5263157894736842,
+      "profitFactor": 2.318156127131461,
+      "biggestWinShare": 0.27400755126727044,
+      "eventsPerDay": 11.108146938670558,
+      "medianHoldMin": 63.03333333333333,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 299.23198947992773,
+      "estLeverage": 0.29923198947992774,
+      "lastActive": 1792393276
+    },
+    {
+      "account": "0xc638eabd0b0e6db277e8b412db5a3340cc273e6b",
+      "score": 1.3776338540471789,
+      "eligible": true,
+      "reasons": [
+        "22 closes, 36% wins, profit factor 2.01, +7 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 6.685493000000001,
+      "pnlFirstHalfUsd": 4.243523000000001,
+      "pnlSecondHalfUsd": 2.44197,
+      "closes": 22,
+      "wins": 8,
+      "winRate": 0.36363636363636365,
+      "profitFactor": 2.005543391826024,
+      "biggestWinShare": 0.24819414539981235,
+      "eventsPerDay": 11.946288007408551,
+      "medianHoldMin": 61.625,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 298.67133048228214,
+      "estLeverage": 0.29867133048228217,
+      "lastActive": 1792392874
+    },
+    {
+      "account": "0xea829a2745fdb98947f2d86d6479cec06cfffeab",
+      "score": 1.2957913237912773,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 58% wins, profit factor 2.10, +6 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 6.216153999999999,
+      "pnlFirstHalfUsd": 5.378829,
+      "pnlSecondHalfUsd": 0.8373249999999999,
+      "closes": 19,
+      "wins": 11,
+      "winRate": 0.5789473684210527,
+      "profitFactor": 2.104515769077345,
+      "biggestWinShare": 0.24771001998547967,
+      "eventsPerDay": 10.489322820155653,
+      "medianHoldMin": 61.858333333333334,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 297.28734616892905,
+      "estLeverage": 0.29728734616892905,
+      "lastActive": 1792395159
+    },
+    {
+      "account": "0x675a6c9240478291115004db5cf60a1ad29e2cde",
+      "score": 1.2952755535113603,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 63% wins, profit factor 2.16, +6 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 5.697188999999999,
+      "pnlFirstHalfUsd": 5.367712,
+      "pnlSecondHalfUsd": 0.3294769999999999,
+      "closes": 19,
+      "wins": 12,
+      "winRate": 0.631578947368421,
+      "profitFactor": 2.155974477287387,
+      "biggestWinShare": 0.19909300709922828,
+      "eventsPerDay": 11.10141040889009,
+      "medianHoldMin": 61.86666666666667,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 296.5581049273045,
+      "estLeverage": 0.2965581049273045,
+      "lastActive": 1792385585
+    },
+    {
+      "account": "0x6e4eafd2ccf6272606d13bb7ecb6cfa7732d3036",
+      "score": 1.27130026275847,
+      "eligible": true,
+      "reasons": [
+        "20 closes, 45% wins, profit factor 1.93, +6 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 6.45176,
+      "pnlFirstHalfUsd": 4.638944,
+      "pnlSecondHalfUsd": 1.8128159999999998,
+      "closes": 20,
+      "wins": 9,
+      "winRate": 0.45,
+      "profitFactor": 1.9279588346060401,
+      "biggestWinShare": 0.23346244023229398,
+      "eventsPerDay": 11.629949170250816,
+      "medianHoldMin": 61.849999999999994,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 301.4197132048013,
+      "estLeverage": 0.3014197132048013,
+      "lastActive": 1792393834
+    },
+    {
+      "account": "0x88f440eea83f9a7a297886d8d0bb4eb8ba2717b2",
+      "score": 0.8242100652529428,
+      "eligible": true,
+      "reasons": [
+        "19 closes, 47% wins, profit factor 1.62, +5 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 5.039179,
+      "pnlFirstHalfUsd": 4.4978750000000005,
+      "pnlSecondHalfUsd": 0.5413040000000003,
+      "closes": 19,
+      "wins": 9,
+      "winRate": 0.47368421052631576,
+      "profitFactor": 1.6249052413661909,
+      "biggestWinShare": 0.2355057067463792,
+      "eventsPerDay": 11.073302958648135,
+      "medianHoldMin": 62.3,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 297.53042658280384,
+      "estLeverage": 0.2975304265828038,
+      "lastActive": 1792393920
+    },
+    {
+      "account": "0x166d3b523f5f547e6cd8e8502c34d084efcd482d",
+      "score": 0.6625287160917449,
+      "eligible": true,
+      "reasons": [
+        "23 closes, 52% wins, profit factor 1.66, +4 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 4.1923770000000005,
+      "pnlFirstHalfUsd": 3.8192850000000003,
+      "pnlSecondHalfUsd": 0.3730920000000001,
+      "closes": 23,
+      "wins": 12,
+      "winRate": 0.5217391304347826,
+      "profitFactor": 1.6639964015644957,
+      "biggestWinShare": 0.3134610962331691,
+      "eventsPerDay": 12.7731373311522,
+      "medianHoldMin": 62.18333333333333,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 301.1766327909265,
+      "estLeverage": 0.3011766327909265,
+      "lastActive": 1792393922
+    },
+    {
+      "account": "0x5f47834ad2773f1330f1c467192187a0c22077e2",
+      "score": 0.6206672129070313,
+      "eligible": true,
+      "reasons": [
+        "17 closes, 47% wins, profit factor 1.74, +4 USDso with both halves positive, median hold 63 min"
+      ],
+      "realizedPnlUsd": 4.018516,
+      "pnlFirstHalfUsd": 3.1624899999999996,
+      "pnlSecondHalfUsd": 0.856026,
+      "closes": 17,
+      "wins": 8,
+      "winRate": 0.47058823529411764,
+      "profitFactor": 1.7434003479362468,
+      "biggestWinShare": 0.30967039412977615,
+      "eventsPerDay": 9.747261000319106,
+      "medianHoldMin": 62.71666666666667,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 297.53042658280384,
+      "estLeverage": 0.2975304265828038,
+      "lastActive": 1792393067
+    },
+    {
+      "account": "0x99dddbdb3fee4b3859435b90434845014b6a84ad",
+      "score": 0.5594312280091941,
+      "eligible": true,
+      "reasons": [
+        "21 closes, 48% wins, profit factor 1.60, +4 USDso with both halves positive, median hold 62 min"
+      ],
+      "realizedPnlUsd": 3.689227,
+      "pnlFirstHalfUsd": 2.908083,
+      "pnlSecondHalfUsd": 0.7811440000000003,
+      "closes": 21,
+      "wins": 10,
+      "winRate": 0.47619047619047616,
+      "profitFactor": 1.604169215271947,
+      "biggestWinShare": 0.29979149626543106,
+      "eventsPerDay": 11.735144312393889,
+      "medianHoldMin": 61.93333333333334,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 299.23198947992773,
+      "estLeverage": 0.29923198947992774,
+      "lastActive": 1792393829
+    },
+    {
+      "account": "0x74974dc791d93c0122d08db4c90268242dc0a022",
+      "score": 0.19611211278393179,
+      "eligible": true,
+      "reasons": [
+        "18 closes, 50% wins, profit factor 1.33, +2 USDso with both halves positive, median hold 65 min"
+      ],
+      "realizedPnlUsd": 1.8765109999999996,
+      "pnlFirstHalfUsd": 1.6040199999999993,
+      "pnlSecondHalfUsd": 0.27249100000000037,
+      "closes": 18,
+      "wins": 9,
+      "winRate": 0.5,
+      "profitFactor": 1.3338050276986286,
+      "biggestWinShare": 0.3972772262372452,
+      "eventsPerDay": 10.026930993169973,
+      "medianHoldMin": 65.11666666666666,
+      "markets": [
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 300.20431113542713,
+      "estLeverage": 0.3002043111354271,
+      "lastActive": 1792393293
+    },
+    {
+      "account": "0xab8b612548cc3f5f9f7e723823be37058d0110b2",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (40975 / -1561)",
+        "1646 changes/day looks like a market maker, not copyable",
+        "runs ~4083.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 39414.52301249424,
+      "pnlFirstHalfUsd": 40975.26762923036,
+      "pnlSecondHalfUsd": -1560.744616736168,
+      "closes": 1249,
+      "wins": 1018,
+      "winRate": 0.8150520416333067,
+      "profitFactor": 5.15720811201323,
+      "biggestWinShare": 0.020464841178930212,
+      "eventsPerDay": 1645.9939832713342,
+      "medianHoldMin": 66.68333333333334,
+      "markets": [
+        "XLM",
+        "SOL",
+        "NEAR",
+        "WLD",
+        "ADA",
+        "SUI",
+        "HYPE",
+        "LINK",
+        "TAO",
+        "DOGE",
+        "BTC",
+        "AVAX",
+        "BNB",
+        "ETH",
+        "XRP"
+      ],
+      "maxNotionalUsd": 4083365.7607680825,
+      "estLeverage": 4083.3657607680825,
+      "lastActive": 1792390637
+    },
+    {
+      "account": "0x47537e3a3ea6e9391f3b26ea45618db6828c8bff",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-234 / 17340)",
+        "profit factor 1.13 < 1.3",
+        "41829 changes/day looks like a market maker, not copyable",
+        "median hold 1.8 min is too fast to copy with a few seconds of lag",
+        "runs ~4084.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 17106.13734846608,
+      "pnlFirstHalfUsd": -234.1215278188793,
+      "pnlSecondHalfUsd": 17340.258876284966,
+      "closes": 88464,
+      "wins": 47859,
+      "winRate": 0.5409997287032013,
+      "profitFactor": 1.1327674338162828,
+      "biggestWinShare": 0.0028462144855751857,
+      "eventsPerDay": 41829.1397065952,
+      "medianHoldMin": 1.8166666666666667,
+      "markets": [
+        "SUI",
+        "ZRO",
+        "BTC",
+        "ETH",
+        "NEAR",
+        "TAO",
+        "DOGE",
+        "SOL",
+        "HYPE",
+        "BNB",
+        "XRP",
+        "WLD",
+        "LINK",
+        "ZEC",
+        "VVV",
+        "PUMP",
+        "1000PEPE",
+        "XLM",
+        "LIT",
+        "AVAX",
+        "ADA"
+      ],
+      "maxNotionalUsd": 4084027.6362926974,
+      "estLeverage": 4084.0276362926975,
+      "lastActive": 1792395574
+    },
+    {
+      "account": "0x657a4803b3da3702b677ef45b5033d196125df6a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 4616)",
+        "runs ~84.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 4615.963157,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 4615.963157,
+      "closes": 188,
+      "wins": 35,
+      "winRate": 0.18617021276595744,
+      "profitFactor": 18.700425081248525,
+      "biggestWinShare": 0.24795892725061425,
+      "eventsPerDay": 153.09461023542187,
+      "medianHoldMin": 27.758333333333333,
+      "markets": [
+        "NEAR",
+        "BTC",
+        "HYPE",
+        "SOL",
+        "ETH"
+      ],
+      "maxNotionalUsd": 83994.82626628195,
+      "estLeverage": 83.99482626628195,
+      "lastActive": 1792378331
+    },
+    {
+      "account": "0x01f1fb95c564e6b055d6fc4f9fb052156b970d89",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~75.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 3165.481130999999,
+      "pnlFirstHalfUsd": 3006.3899629999996,
+      "pnlSecondHalfUsd": 159.09116799999995,
+      "closes": 60,
+      "wins": 39,
+      "winRate": 0.65,
+      "profitFactor": 6.673456695385035,
+      "biggestWinShare": 0.2347057963059906,
+      "eventsPerDay": 53.58700329104209,
+      "medianHoldMin": 599.6333333333333,
+      "markets": [
+        "NEAR",
+        "BTC",
+        "HYPE",
+        "SOL"
+      ],
+      "maxNotionalUsd": 75693.73968372298,
+      "estLeverage": 75.69373968372298,
+      "lastActive": 1792340986
+    },
+    {
+      "account": "0xe00f9cc9a668c777b3cab7b493848fdafffab220",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "606 changes/day looks like a market maker, not copyable",
+        "runs ~77.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2816.089374999994,
+      "pnlFirstHalfUsd": 2416.537658,
+      "pnlSecondHalfUsd": 399.551717,
+      "closes": 645,
+      "wins": 226,
+      "winRate": 0.35038759689922483,
+      "profitFactor": 5.9740409457908745,
+      "biggestWinShare": 0.03166125950450867,
+      "eventsPerDay": 605.6719129815601,
+      "medianHoldMin": 5.766666666666667,
+      "markets": [
+        "SOL",
+        "ETH",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 77453.61097009807,
+      "estLeverage": 77.45361097009807,
+      "lastActive": 1792274355
+    },
+    {
+      "account": "0x6bd6d1c54ed1cf8121e9c7dc64510338053fc202",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~44.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2766.736188,
+      "pnlFirstHalfUsd": 1137.3140279999998,
+      "pnlSecondHalfUsd": 1629.42216,
+      "closes": 36,
+      "wins": 27,
+      "winRate": 0.75,
+      "profitFactor": 45.14312698228349,
+      "biggestWinShare": 0.25844124539447666,
+      "eventsPerDay": 52.339775377275046,
+      "medianHoldMin": 324.9833333333333,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "BTC"
+      ],
+      "maxNotionalUsd": 44777.711610383965,
+      "estLeverage": 44.77771161038397,
+      "lastActive": 1792265459
+    },
+    {
+      "account": "0xd9f11391bb1581f45791169dc5b2351fd9e17996",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~87.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2679.5498930000003,
+      "pnlFirstHalfUsd": 833.2693929999999,
+      "pnlSecondHalfUsd": 1846.2805000000003,
+      "closes": 76,
+      "wins": 45,
+      "winRate": 0.5921052631578947,
+      "profitFactor": 3.381468808165009,
+      "biggestWinShare": 0.13793558005997447,
+      "eventsPerDay": 41.04389483438657,
+      "medianHoldMin": 26.508333333333333,
+      "markets": [
+        "SOL",
+        "ETH"
+      ],
+      "maxNotionalUsd": 87449.5475810014,
+      "estLeverage": 87.4495475810014,
+      "lastActive": 1792375300
+    },
+    {
+      "account": "0xf8fab6abe63752f0b0e7e513bed40a7d79faa29e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~40.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2674.10066,
+      "pnlFirstHalfUsd": 2234.28284,
+      "pnlSecondHalfUsd": 439.81782,
+      "closes": 35,
+      "wins": 35,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.2842234285776736,
+      "eventsPerDay": 31.969242023425736,
+      "medianHoldMin": 259.06666666666666,
+      "markets": [
+        "ADA",
+        "NEAR",
+        "XRP",
+        "SUI"
+      ],
+      "maxNotionalUsd": 40635.08931716732,
+      "estLeverage": 40.63508931716732,
+      "lastActive": 1792313208
+    },
+    {
+      "account": "0x39779942e783d41ca778e40f8b6038e2d44952a7",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~28.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2350.5663900000004,
+      "pnlFirstHalfUsd": 967.7891900000001,
+      "pnlSecondHalfUsd": 1382.7772,
+      "closes": 56,
+      "wins": 49,
+      "winRate": 0.875,
+      "profitFactor": 3.3557080998411988,
+      "biggestWinShare": 0.09661529588664514,
+      "eventsPerDay": 32.596598233093346,
+      "medianHoldMin": 325.68333333333334,
+      "markets": [
+        "XLM",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 28695.01982843361,
+      "estLeverage": 28.69501982843361,
+      "lastActive": 1792363039
+    },
+    {
+      "account": "0x109cca137f308f7ce836b78e1b19a8e646f00296",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~30.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2281.3361999999997,
+      "pnlFirstHalfUsd": 1219.26567,
+      "pnlSecondHalfUsd": 1062.0705299999997,
+      "closes": 41,
+      "wins": 38,
+      "winRate": 0.926829268292683,
+      "profitFactor": 3.932164581882703,
+      "biggestWinShare": 0.17075173923813572,
+      "eventsPerDay": 26.835261312498275,
+      "medianHoldMin": 134.45,
+      "markets": [
+        "SOL",
+        "XRP",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 30234.534799071578,
+      "estLeverage": 30.23453479907158,
+      "lastActive": 1792366141
+    },
+    {
+      "account": "0xabd83d7591520532c16bea40e265287cc45482da",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~60.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2175.2512769999976,
+      "pnlFirstHalfUsd": 602.1330229999999,
+      "pnlSecondHalfUsd": 1573.1182540000007,
+      "closes": 594,
+      "wins": 242,
+      "winRate": 0.4074074074074074,
+      "profitFactor": 2.103472404528629,
+      "biggestWinShare": 0.025901126158745038,
+      "eventsPerDay": 349.0552582201882,
+      "medianHoldMin": 13,
+      "markets": [
+        "HYPE",
+        "BTC",
+        "NEAR",
+        "SOL",
+        "ETH"
+      ],
+      "maxNotionalUsd": 60329.65502135666,
+      "estLeverage": 60.32965502135666,
+      "lastActive": 1792367869
+    },
+    {
+      "account": "0xd94aaa72c90db7423b64f26a3f3eb30d1bab17c3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 3.5 min is too fast to copy with a few seconds of lag",
+        "runs ~51.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2144.291839,
+      "pnlFirstHalfUsd": 243.320068,
+      "pnlSecondHalfUsd": 1900.971771,
+      "closes": 16,
+      "wins": 11,
+      "winRate": 0.6875,
+      "profitFactor": 7543.249982413192,
+      "biggestWinShare": 0.38496869246540233,
+      "eventsPerDay": 19.819389632459306,
+      "medianHoldMin": 3.466666666666667,
+      "markets": [
+        "HYPE",
+        "BNB",
+        "PUMP",
+        "AVAX",
+        "ETH",
+        "LINK",
+        "ZRO",
+        "TAO"
+      ],
+      "maxNotionalUsd": 51886.24358282618,
+      "estLeverage": 51.88624358282618,
+      "lastActive": 1792368860
+    },
+    {
+      "account": "0x3c73b7a677863ca8f9ab9eeeccc48b9f5fbca597",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~44.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2099.3683939999983,
+      "pnlFirstHalfUsd": 442.993482,
+      "pnlSecondHalfUsd": 1656.3749119999986,
+      "closes": 125,
+      "wins": 102,
+      "winRate": 0.816,
+      "profitFactor": 3.774759824850465,
+      "biggestWinShare": 0.21418123229979322,
+      "eventsPerDay": 64.69337044031408,
+      "medianHoldMin": 148.31666666666666,
+      "markets": [
+        "BTC",
+        "XRP",
+        "ETH",
+        "HYPE",
+        "DOGE",
+        "SOL"
+      ],
+      "maxNotionalUsd": 44494.88329129037,
+      "estLeverage": 44.494883291290364,
+      "lastActive": 1792393272
+    },
+    {
+      "account": "0x7bdfc8d2a09212b8a9477b33966ff66016547e7f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~44.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2038.2975542466397,
+      "pnlFirstHalfUsd": 698.3494057373732,
+      "pnlSecondHalfUsd": 1339.9481485092667,
+      "closes": 154,
+      "wins": 112,
+      "winRate": 0.7272727272727273,
+      "profitFactor": 4.887919509486907,
+      "biggestWinShare": 0.23648561106430618,
+      "eventsPerDay": 68.49214630157074,
+      "medianHoldMin": 0,
+      "markets": [
+        "SUI"
+      ],
+      "maxNotionalUsd": 44504.054798051344,
+      "estLeverage": 44.50405479805134,
+      "lastActive": 1792395260
+    },
+    {
+      "account": "0x0a72b2e45fb68a8ff4b0945ee8104cb5a97d8ff4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~50.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 2033.0358457883801,
+      "pnlFirstHalfUsd": 616.7326234616344,
+      "pnlSecondHalfUsd": 1416.3032223267458,
+      "closes": 241,
+      "wins": 210,
+      "winRate": 0.8713692946058091,
+      "profitFactor": 7.261739658990041,
+      "biggestWinShare": 0.07852825043841345,
+      "eventsPerDay": 110.38076152304609,
+      "medianHoldMin": 0,
+      "markets": [
+        "DOGE"
+      ],
+      "maxNotionalUsd": 50741.845554821855,
+      "estLeverage": 50.74184555482186,
+      "lastActive": 1792395264
+    },
+    {
+      "account": "0x8d4a4e4484e0fc2c24dd4622dda314d0538d5df8",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~64.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1958.8409,
+      "pnlFirstHalfUsd": 880.5229999999999,
+      "pnlSecondHalfUsd": 1078.3179,
+      "closes": 13,
+      "wins": 12,
+      "winRate": 0.9230769230769231,
+      "profitFactor": 4664.906904761905,
+      "biggestWinShare": 0.2663481928312865,
+      "eventsPerDay": 25.099893990051374,
+      "medianHoldMin": 948.7166666666667,
+      "markets": [
+        "HYPE"
+      ],
+      "maxNotionalUsd": 64167.56204898493,
+      "estLeverage": 64.16756204898493,
+      "lastActive": 1792272735
+    },
+    {
+      "account": "0x8b2e23ff6ae00bb2122b4270dec9cfd0e3fac6b4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~55.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1955.3854500000002,
+      "pnlFirstHalfUsd": 1482.9229500000001,
+      "pnlSecondHalfUsd": 472.46250000000003,
+      "closes": 19,
+      "wins": 14,
+      "winRate": 0.7368421052631579,
+      "profitFactor": 14.737659269230337,
+      "biggestWinShare": 0.34272270104728164,
+      "eventsPerDay": 19.552142228256834,
+      "medianHoldMin": 1632.9166666666667,
+      "markets": [
+        "ADA",
+        "XRP",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 55124.50919570533,
+      "estLeverage": 55.12450919570533,
+      "lastActive": 1792360895
+    },
+    {
+      "account": "0xf686a72c515108ff8491dfd6949771616ff20c49",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~72.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1942.6817509999994,
+      "pnlFirstHalfUsd": 432.01066900000006,
+      "pnlSecondHalfUsd": 1510.6710820000017,
+      "closes": 553,
+      "wins": 204,
+      "winRate": 0.3688969258589512,
+      "profitFactor": 1.9449805574883752,
+      "biggestWinShare": 0.02566120949586593,
+      "eventsPerDay": 312.2596693897353,
+      "medianHoldMin": 29.133333333333333,
+      "markets": [
+        "ETH",
+        "SOL",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 72724.06898183294,
+      "estLeverage": 72.72406898183294,
+      "lastActive": 1792385703
+    },
+    {
+      "account": "0x8b1343f727f72b0d5855064db0fab685bc7d9dcc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~29.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1939.4734500000002,
+      "pnlFirstHalfUsd": 291.5135499999999,
+      "pnlSecondHalfUsd": 1647.9599000000003,
+      "closes": 33,
+      "wins": 30,
+      "winRate": 0.9090909090909091,
+      "profitFactor": 5.031728638850339,
+      "biggestWinShare": 0.13072147791293606,
+      "eventsPerDay": 23.6456953379713,
+      "medianHoldMin": 623.425,
+      "markets": [
+        "ADA",
+        "NEAR",
+        "XRP"
+      ],
+      "maxNotionalUsd": 29684.311327826756,
+      "estLeverage": 29.684311327826755,
+      "lastActive": 1792330306
+    },
+    {
+      "account": "0xf9aa0a9943bfdd6860f2d478f4d8a3e15bcb81cc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (2052 / -115)",
+        "runs ~65.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1936.6372299999928,
+      "pnlFirstHalfUsd": 2051.7726799999923,
+      "pnlSecondHalfUsd": -115.13544999999999,
+      "closes": 34,
+      "wins": 26,
+      "winRate": 0.7647058823529411,
+      "profitFactor": 10.278499299861522,
+      "biggestWinShare": 0.23625164478976649,
+      "eventsPerDay": 43.90599912421544,
+      "medianHoldMin": 373.93333333333334,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "1000PEPE",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 65654.65086804089,
+      "estLeverage": 65.65465086804089,
+      "lastActive": 1792266393
+    },
+    {
+      "account": "0x220c695efb9a6914a334ac7b783012f43c0baf00",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~112.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1850.8654857980987,
+      "pnlFirstHalfUsd": 977.8701830000001,
+      "pnlSecondHalfUsd": 872.9953027980985,
+      "closes": 75,
+      "wins": 66,
+      "winRate": 0.88,
+      "profitFactor": 6.04031323956973,
+      "biggestWinShare": 0.22468691689343143,
+      "eventsPerDay": 64.72733440759902,
+      "medianHoldMin": 9.4,
+      "markets": [
+        "BTC",
+        "XRP",
+        "NEAR",
+        "WLD"
+      ],
+      "maxNotionalUsd": 112800.96362682778,
+      "estLeverage": 112.80096362682778,
+      "lastActive": 1792365047
+    },
+    {
+      "account": "0x2730930ab85badb85a7e27afe15b2d67cf518271",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~28.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1826.1127499999998,
+      "pnlFirstHalfUsd": 1472.9358599999998,
+      "pnlSecondHalfUsd": 353.17689000000007,
+      "closes": 46,
+      "wins": 28,
+      "winRate": 0.6086956521739131,
+      "profitFactor": 2.316947482006928,
+      "biggestWinShare": 0.08821654044891451,
+      "eventsPerDay": 28.382233441103754,
+      "medianHoldMin": 153.45,
+      "markets": [
+        "XLM",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 28431.88347053876,
+      "estLeverage": 28.43188347053876,
+      "lastActive": 1792366220
+    },
+    {
+      "account": "0xcabd9fe518604cc6cd3890dc7ddaccfde87c61ce",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 1.8 min is too fast to copy with a few seconds of lag",
+        "runs ~47.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1809.5829149999986,
+      "pnlFirstHalfUsd": 431.8962409999997,
+      "pnlSecondHalfUsd": 1377.6866740000003,
+      "closes": 538,
+      "wins": 229,
+      "winRate": 0.4256505576208178,
+      "profitFactor": 2.789256779624558,
+      "biggestWinShare": 0.025143578695703817,
+      "eventsPerDay": 304.1352659865859,
+      "medianHoldMin": 1.8,
+      "markets": [
+        "ETH",
+        "HYPE",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 47457.31844202659,
+      "estLeverage": 47.45731844202659,
+      "lastActive": 1792348849
+    },
+    {
+      "account": "0xe6f9da2d246f57af44fad7d7f2ffa516d027986e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~29.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1724.336369999999,
+      "pnlFirstHalfUsd": 134.90892000000002,
+      "pnlSecondHalfUsd": 1589.42745,
+      "closes": 34,
+      "wins": 21,
+      "winRate": 0.6176470588235294,
+      "profitFactor": 2.8461573521143846,
+      "biggestWinShare": 0.25571698046428853,
+      "eventsPerDay": 21.925826321669746,
+      "medianHoldMin": 465.78333333333336,
+      "markets": [
+        "NEAR",
+        "SOL"
+      ],
+      "maxNotionalUsd": 29138.809416652428,
+      "estLeverage": 29.13880941665243,
+      "lastActive": 1792395049
+    },
+    {
+      "account": "0xa22cbf757c46e64abfaad5f8dd9e2e86f5b2e17a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 2.5 min is too fast to copy with a few seconds of lag",
+        "runs ~42.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1715.3312999999998,
+      "pnlFirstHalfUsd": 304.1297799999999,
+      "pnlSecondHalfUsd": 1411.20152,
+      "closes": 13,
+      "wins": 11,
+      "winRate": 0.8461538461538461,
+      "profitFactor": 3073.3085327410795,
+      "biggestWinShare": 0.35367429275979473,
+      "eventsPerDay": 13.742707841146721,
+      "medianHoldMin": 2.475,
+      "markets": [
+        "XLM",
+        "DOGE",
+        "WLD",
+        "1000PEPE",
+        "NEAR",
+        "SOL"
+      ],
+      "maxNotionalUsd": 42464.23881981355,
+      "estLeverage": 42.46423881981355,
+      "lastActive": 1792368557
+    },
+    {
+      "account": "0xdc73254d22f88dc8394e6390bd836798758e7ea7",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~29.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1680.5785626198187,
+      "pnlFirstHalfUsd": 274.10458171105427,
+      "pnlSecondHalfUsd": 1406.4739809087644,
+      "closes": 57,
+      "wins": 32,
+      "winRate": 0.5614035087719298,
+      "profitFactor": 13.107450222866515,
+      "biggestWinShare": 0.2665167260627881,
+      "eventsPerDay": 37.20504625735912,
+      "medianHoldMin": 488.5416666666667,
+      "markets": [
+        "AVAX"
+      ],
+      "maxNotionalUsd": 29154.913873284804,
+      "estLeverage": 29.154913873284805,
+      "lastActive": 1792373450
+    },
+    {
+      "account": "0x309e802a9f4b22e18ba678f9200806308b7ec9c3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~13.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1673.022375,
+      "pnlFirstHalfUsd": 579.455425,
+      "pnlSecondHalfUsd": 1093.5669500000001,
+      "closes": 9,
+      "wins": 9,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.37280056642246906,
+      "eventsPerDay": 4.88828000921402,
+      "medianHoldMin": 4122.333333333333,
+      "markets": [
+        "ETH",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 12980.212916078553,
+      "estLeverage": 12.980212916078553,
+      "lastActive": 1792333453
+    },
+    {
+      "account": "0xc5cd59917231e842d51cda64218913df2ffa540b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~23.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1642.794063,
+      "pnlFirstHalfUsd": 45.00104300000001,
+      "pnlSecondHalfUsd": 1597.79302,
+      "closes": 18,
+      "wins": 15,
+      "winRate": 0.8333333333333334,
+      "profitFactor": 4.6698762853158176,
+      "biggestWinShare": 0.20242750979438773,
+      "eventsPerDay": 12.287932037116635,
+      "medianHoldMin": 1341.6333333333334,
+      "markets": [
+        "TAO",
+        "SOL",
+        "XRP",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 22967.836219071396,
+      "estLeverage": 22.967836219071398,
+      "lastActive": 1792394966
+    },
+    {
+      "account": "0x80a9a4015420f2a654af4e71dae5956e65b4baf4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 3.1 min is too fast to copy with a few seconds of lag",
+        "runs ~80.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1626.6357312745545,
+      "pnlFirstHalfUsd": 1297.3582161539157,
+      "pnlSecondHalfUsd": 329.2775151206379,
+      "closes": 349,
+      "wins": 215,
+      "winRate": 0.6160458452722063,
+      "profitFactor": 1.961147298645161,
+      "biggestWinShare": 0.05105957290250249,
+      "eventsPerDay": 183.14943075786232,
+      "medianHoldMin": 3.1083333333333334,
+      "markets": [
+        "XRP"
+      ],
+      "maxNotionalUsd": 80237.3569789788,
+      "estLeverage": 80.2373569789788,
+      "lastActive": 1792395261
+    },
+    {
+      "account": "0x3802652482ce2600f001ac75e0524fa7ef26c66f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~49.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1615.7759859999996,
+      "pnlFirstHalfUsd": 939.9214260000001,
+      "pnlSecondHalfUsd": 675.8545599999995,
+      "closes": 26,
+      "wins": 26,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.21257088544887,
+      "eventsPerDay": 23.96927747371425,
+      "medianHoldMin": 843.0333333333334,
+      "markets": [
+        "TAO",
+        "XRP",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 49867.30384957753,
+      "estLeverage": 49.86730384957753,
+      "lastActive": 1792330406
+    },
+    {
+      "account": "0xa5688064f0f2098ea9a24f6c3a6ef98c1b1a5aa2",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~45.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1611.4005790957237,
+      "pnlFirstHalfUsd": 431.2415,
+      "pnlSecondHalfUsd": 1180.1590790957243,
+      "closes": 229,
+      "wins": 91,
+      "winRate": 0.39737991266375544,
+      "profitFactor": 4.383474768915988,
+      "biggestWinShare": 0.043546024864984136,
+      "eventsPerDay": 127.92652054846087,
+      "medianHoldMin": 11.766666666666667,
+      "markets": [
+        "SOL",
+        "BTC",
+        "HYPE",
+        "ETH"
+      ],
+      "maxNotionalUsd": 45520.45370427187,
+      "estLeverage": 45.52045370427187,
+      "lastActive": 1792395505
+    },
+    {
+      "account": "0xe8c0d36d69a10bea8d00fe45a2fde45527eda984",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-1989 / 3567)",
+        "profit factor 1.19 < 1.3",
+        "714 changes/day looks like a market maker, not copyable",
+        "runs ~68.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1577.6272469334124,
+      "pnlFirstHalfUsd": -1989.240803528725,
+      "pnlSecondHalfUsd": 3566.868050462134,
+      "closes": 1334,
+      "wins": 684,
+      "winRate": 0.512743628185907,
+      "profitFactor": 1.1881760827854615,
+      "biggestWinShare": 0.021021607766538646,
+      "eventsPerDay": 714.1390106449593,
+      "medianHoldMin": 22.583333333333332,
+      "markets": [
+        "NEAR"
+      ],
+      "maxNotionalUsd": 68365.86196982749,
+      "estLeverage": 68.36586196982749,
+      "lastActive": 1792395311
+    },
+    {
+      "account": "0xffc2d88f6836a48a127766813167dc42a35c512b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~17.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1568.913178,
+      "pnlFirstHalfUsd": 388.69107399999996,
+      "pnlSecondHalfUsd": 1180.2221039999997,
+      "closes": 18,
+      "wins": 18,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.1427046462095559,
+      "eventsPerDay": 14.336536929857166,
+      "medianHoldMin": 894.7666666666667,
+      "markets": [
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 17015.628971238784,
+      "estLeverage": 17.015628971238783,
+      "lastActive": 1792390103
+    },
+    {
+      "account": "0xdabe375f53d1cd106741ebea66bd17e9456fd1bc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~47.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1500.44943,
+      "pnlFirstHalfUsd": 296.293571,
+      "pnlSecondHalfUsd": 1204.1558590000002,
+      "closes": 86,
+      "wins": 84,
+      "winRate": 0.9767441860465116,
+      "profitFactor": 17050562.704545066,
+      "biggestWinShare": 0.1268853446148716,
+      "eventsPerDay": 76.6101212242811,
+      "medianHoldMin": 630.4333333333333,
+      "markets": [
+        "BTC",
+        "HYPE",
+        "DOGE",
+        "ETH",
+        "XRP",
+        "BNB",
+        "LINK",
+        "ADA",
+        "NEAR",
+        "SUI",
+        "SOL",
+        "WLD",
+        "AVAX",
+        "LIT",
+        "VVV",
+        "PUMP",
+        "1000PEPE"
+      ],
+      "maxNotionalUsd": 47057.69511127768,
+      "estLeverage": 47.05769511127768,
+      "lastActive": 1792393306
+    },
+    {
+      "account": "0xff0cd2ac1a5b0addd2e3aa9f74f5f9e6af4e8300",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~16.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1465.2076869999994,
+      "pnlFirstHalfUsd": 904.8638519999998,
+      "pnlSecondHalfUsd": 560.343835,
+      "closes": 58,
+      "wins": 54,
+      "winRate": 0.9310344827586207,
+      "profitFactor": 85.18119378326406,
+      "biggestWinShare": 0.25680029306542634,
+      "eventsPerDay": 40.87978046043826,
+      "medianHoldMin": 67.94166666666666,
+      "markets": [
+        "SOL",
+        "ETH",
+        "SUI",
+        "BTC",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 16793.665979723948,
+      "estLeverage": 16.793665979723947,
+      "lastActive": 1792363365
+    },
+    {
+      "account": "0x78e10cb30d7eac62f9562ee152900280b190f257",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-138 / 1603)",
+        "runs ~16.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1464.7012149999996,
+      "pnlFirstHalfUsd": -138.095903,
+      "pnlSecondHalfUsd": 1602.797118,
+      "closes": 27,
+      "wins": 22,
+      "winRate": 0.8148148148148148,
+      "profitFactor": 7.210826243504588,
+      "biggestWinShare": 0.2988171454657175,
+      "eventsPerDay": 17.595406282818683,
+      "medianHoldMin": 283.95,
+      "markets": [
+        "ETH",
+        "XLM",
+        "NEAR",
+        "BTC",
+        "SUI",
+        "BNB"
+      ],
+      "maxNotionalUsd": 16917.21218644776,
+      "estLeverage": 16.91721218644776,
+      "lastActive": 1792366978
+    },
+    {
+      "account": "0x7d59508eed59d8fd6de4dd934e303fc940470c7d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~18.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1366.2775000000001,
+      "pnlFirstHalfUsd": 495.93971999999997,
+      "pnlSecondHalfUsd": 870.33778,
+      "closes": 29,
+      "wins": 17,
+      "winRate": 0.5862068965517241,
+      "profitFactor": 2.5625557176425504,
+      "biggestWinShare": 0.12981687784972154,
+      "eventsPerDay": 20.49147250600004,
+      "medianHoldMin": 207.55833333333334,
+      "markets": [
+        "HYPE",
+        "XRP",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 18124.52871292291,
+      "estLeverage": 18.12452871292291,
+      "lastActive": 1792373643
+    },
+    {
+      "account": "0x1ab43a002beeea905f938ca9e24d9bcc43ad61f8",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~30.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1360.003965,
+      "pnlFirstHalfUsd": 63.710249999999995,
+      "pnlSecondHalfUsd": 1296.293715,
+      "closes": 88,
+      "wins": 85,
+      "winRate": 0.9659090909090909,
+      "profitFactor": 6.038207543012674,
+      "biggestWinShare": 0.14219258715382802,
+      "eventsPerDay": 35.720482712611854,
+      "medianHoldMin": 301.64166666666665,
+      "markets": [
+        "BTC",
+        "VVV",
+        "ETH",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 30949.299530972883,
+      "estLeverage": 30.949299530972883,
+      "lastActive": 1792395421
+    },
+    {
+      "account": "0x3f6bd081ce0a9df28575bea049a4f0b2f105d05f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~57.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1355.071471,
+      "pnlFirstHalfUsd": 372.877423,
+      "pnlSecondHalfUsd": 982.1940480000001,
+      "closes": 14,
+      "wins": 14,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.4486990719200472,
+      "eventsPerDay": 10.262698096435031,
+      "medianHoldMin": 2146.0916666666667,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 57804.76549985077,
+      "estLeverage": 57.804765499850774,
+      "lastActive": 1792343181
+    },
+    {
+      "account": "0xfe60265777202820543a51ef601bbefbbece07dc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~20.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1354.3539200000002,
+      "pnlFirstHalfUsd": 724.55246,
+      "pnlSecondHalfUsd": 629.8014599999999,
+      "closes": 29,
+      "wins": 24,
+      "winRate": 0.8275862068965517,
+      "profitFactor": 3.4292155610612554,
+      "biggestWinShare": 0.16171510682772577,
+      "eventsPerDay": 20.55890318923345,
+      "medianHoldMin": 765.5333333333333,
+      "markets": [
+        "XLM",
+        "XRP",
+        "NEAR",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 20263.98885923729,
+      "estLeverage": 20.26398885923729,
+      "lastActive": 1792365748
+    },
+    {
+      "account": "0x04d69fd227fa70f3ebda855fd05076abfdb77794",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~19.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1329.15566,
+      "pnlFirstHalfUsd": 533.52962,
+      "pnlSecondHalfUsd": 795.6260399999999,
+      "closes": 28,
+      "wins": 19,
+      "winRate": 0.6785714285714286,
+      "profitFactor": 2.241099582562231,
+      "biggestWinShare": 0.20413832522401687,
+      "eventsPerDay": 18.83935134222641,
+      "medianHoldMin": 381.56666666666666,
+      "markets": [
+        "XLM",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 19020.204392680385,
+      "estLeverage": 19.020204392680384,
+      "lastActive": 1792363464
+    },
+    {
+      "account": "0xd76dd98ac235b8deba9e27b26c57d3d282b3932c",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~29.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1320.5862299999994,
+      "pnlFirstHalfUsd": 800.36904,
+      "pnlSecondHalfUsd": 520.2171899999998,
+      "closes": 33,
+      "wins": 29,
+      "winRate": 0.8787878787878788,
+      "profitFactor": 1.9252370259096108,
+      "biggestWinShare": 0.19730094481409108,
+      "eventsPerDay": 27.877090369882197,
+      "medianHoldMin": 377.1666666666667,
+      "markets": [
+        "NEAR",
+        "AVAX",
+        "ADA",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 29839.662985276216,
+      "estLeverage": 29.839662985276217,
+      "lastActive": 1792370102
+    },
+    {
+      "account": "0xf428a46db589878bedebbb4b8a1dbb0854e92f26",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~34.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1304.6907599589729,
+      "pnlFirstHalfUsd": 60.53132956070199,
+      "pnlSecondHalfUsd": 1244.159430398271,
+      "closes": 57,
+      "wins": 42,
+      "winRate": 0.7368421052631579,
+      "profitFactor": 3.2027960767769605,
+      "biggestWinShare": 0.13995186257327297,
+      "eventsPerDay": 45.5129091519665,
+      "medianHoldMin": 990.15,
+      "markets": [
+        "ETH",
+        "SOL",
+        "BTC",
+        "PUMP",
+        "NEAR",
+        "XRP",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 34843.22816502519,
+      "estLeverage": 34.84322816502519,
+      "lastActive": 1792380346
+    },
+    {
+      "account": "0xcdd90c99a3439c6b73ce404e314fe19894c94b3d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~51.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1290.9578199999996,
+      "pnlFirstHalfUsd": 921.86662,
+      "pnlSecondHalfUsd": 369.09119999999996,
+      "closes": 29,
+      "wins": 24,
+      "winRate": 0.8275862068965517,
+      "profitFactor": 17.151852644248518,
+      "biggestWinShare": 0.3054293294266209,
+      "eventsPerDay": 27.79193295805646,
+      "medianHoldMin": 374.1166666666667,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "AVAX",
+        "XLM",
+        "SUI",
+        "BTC"
+      ],
+      "maxNotionalUsd": 51436.82905100821,
+      "estLeverage": 51.43682905100821,
+      "lastActive": 1792346986
+    },
+    {
+      "account": "0xd728d569307ab17343841d276aa8d0035885bacc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-68 / 1348)",
+        "runs ~19.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1280.75351,
+      "pnlFirstHalfUsd": -67.70539999999997,
+      "pnlSecondHalfUsd": 1348.4589099999998,
+      "closes": 29,
+      "wins": 25,
+      "winRate": 0.8620689655172413,
+      "profitFactor": 5.759397941062038,
+      "biggestWinShare": 0.18215570395379294,
+      "eventsPerDay": 20.007866114323313,
+      "medianHoldMin": 796.6916666666667,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 19303.582008874844,
+      "estLeverage": 19.303582008874844,
+      "lastActive": 1792363542
+    },
+    {
+      "account": "0x26d38f43fccc52474e03f8050235ccde9655dce3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~18.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1216.3141199999998,
+      "pnlFirstHalfUsd": 0.6078499999999991,
+      "pnlSecondHalfUsd": 1215.70627,
+      "closes": 26,
+      "wins": 16,
+      "winRate": 0.6153846153846154,
+      "profitFactor": 5.592045565490083,
+      "biggestWinShare": 0.20317322985182376,
+      "eventsPerDay": 17.728594575853844,
+      "medianHoldMin": 664.1083333333333,
+      "markets": [
+        "HYPE",
+        "NEAR",
+        "XRP"
+      ],
+      "maxNotionalUsd": 18361.857466485766,
+      "estLeverage": 18.361857466485766,
+      "lastActive": 1792373716
+    },
+    {
+      "account": "0x3da7e44f7ebf77e6a94e1c40399e427b6fa1dac3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~37.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1207.9161020000001,
+      "pnlFirstHalfUsd": 307.633,
+      "pnlSecondHalfUsd": 900.2831019999999,
+      "closes": 28,
+      "wins": 25,
+      "winRate": 0.8928571428571429,
+      "profitFactor": 1073.1973601519642,
+      "biggestWinShare": 0.173689562658006,
+      "eventsPerDay": 18.995366663604027,
+      "medianHoldMin": 366.46666666666664,
+      "markets": [
+        "HYPE",
+        "DOGE",
+        "SOL",
+        "ETH",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 37458.448697698936,
+      "estLeverage": 37.458448697698934,
+      "lastActive": 1792384888
+    },
+    {
+      "account": "0x3d4b063135c03eb89c10da0ffa273a87f8080cc9",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~11.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1149.35708,
+      "pnlFirstHalfUsd": 327.99038,
+      "pnlSecondHalfUsd": 821.3667,
+      "closes": 19,
+      "wins": 15,
+      "winRate": 0.7894736842105263,
+      "profitFactor": 13.593782532733387,
+      "biggestWinShare": 0.22161526001550622,
+      "eventsPerDay": 13.485059167399756,
+      "medianHoldMin": 755.5833333333333,
+      "markets": [
+        "TAO",
+        "NEAR",
+        "SOL"
+      ],
+      "maxNotionalUsd": 11678.193975956528,
+      "estLeverage": 11.678193975956528,
+      "lastActive": 1792363204
+    },
+    {
+      "account": "0x8b9baf1024425e460b5c5cf3bbd417c6f482bc7a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~19.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1149.2798784333088,
+      "pnlFirstHalfUsd": 163.910564,
+      "pnlSecondHalfUsd": 985.3693144333083,
+      "closes": 39,
+      "wins": 34,
+      "winRate": 0.8717948717948718,
+      "profitFactor": 2976.8671114275216,
+      "biggestWinShare": 0.1786365994224305,
+      "eventsPerDay": 27.266324657381357,
+      "medianHoldMin": 247.81666666666666,
+      "markets": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "WLD",
+        "LINK",
+        "AVAX"
+      ],
+      "maxNotionalUsd": 19684.83517693093,
+      "estLeverage": 19.68483517693093,
+      "lastActive": 1792393150
+    },
+    {
+      "account": "0xe47faaf2be2169bb652480801a2c1bde001bfbb3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~41.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1118.8648669999998,
+      "pnlFirstHalfUsd": 998.4300509999998,
+      "pnlSecondHalfUsd": 120.43481600000013,
+      "closes": 564,
+      "wins": 158,
+      "winRate": 0.2801418439716312,
+      "profitFactor": 1.5841548978247844,
+      "biggestWinShare": 0.04364809332868465,
+      "eventsPerDay": 326.343708505689,
+      "medianHoldMin": 18.583333333333332,
+      "markets": [
+        "SOL",
+        "BTC",
+        "NEAR",
+        "ETH",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 41332.664334036126,
+      "estLeverage": 41.332664334036124,
+      "lastActive": 1792395424
+    },
+    {
+      "account": "0x4bf0758d4cf5c86c7e153d7d352f5fb32a8c0646",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~21.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1086.5893500000002,
+      "pnlFirstHalfUsd": 245.8074,
+      "pnlSecondHalfUsd": 840.7819500000003,
+      "closes": 26,
+      "wins": 23,
+      "winRate": 0.8846153846153846,
+      "profitFactor": 2.3273970235645822,
+      "biggestWinShare": 0.23159139808117493,
+      "eventsPerDay": 16.176373980108,
+      "medianHoldMin": 833.4750000000001,
+      "markets": [
+        "SOL",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 21718.3641240176,
+      "estLeverage": 21.7183641240176,
+      "lastActive": 1792395165
+    },
+    {
+      "account": "0x78e864d8f8277022d5ac6c182489727d67ce669a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (1071 / -3)",
+        "runs ~28.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1067.7118359999997,
+      "pnlFirstHalfUsd": 1070.992435,
+      "pnlSecondHalfUsd": -3.2805990000000005,
+      "closes": 18,
+      "wins": 9,
+      "winRate": 0.5,
+      "profitFactor": 326.4624646291728,
+      "biggestWinShare": 0.30797675482939196,
+      "eventsPerDay": 15.42837921454467,
+      "medianHoldMin": 618.55,
+      "markets": [
+        "BTC",
+        "SOL",
+        "NEAR",
+        "ETH"
+      ],
+      "maxNotionalUsd": 28860.811570169255,
+      "estLeverage": 28.860811570169254,
+      "lastActive": 1792326823
+    },
+    {
+      "account": "0x6c0882076785881a339ee0d04693d158e28c6314",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~41.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1063.3297609999993,
+      "pnlFirstHalfUsd": 485.9959,
+      "pnlSecondHalfUsd": 577.3338610000002,
+      "closes": 379,
+      "wins": 135,
+      "winRate": 0.3562005277044855,
+      "profitFactor": 1.78015799309396,
+      "biggestWinShare": 0.048587702901221205,
+      "eventsPerDay": 209.3164635888909,
+      "medianHoldMin": 37.474999999999994,
+      "markets": [
+        "SOL",
+        "HYPE",
+        "NEAR",
+        "ETH"
+      ],
+      "maxNotionalUsd": 41690.567091561985,
+      "estLeverage": 41.69056709156199,
+      "lastActive": 1792384585
+    },
+    {
+      "account": "0xc5e0408b6e4db1878b9bf0a634bbafcd293a050b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~38.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1050.8543966113662,
+      "pnlFirstHalfUsd": 485.01406799999995,
+      "pnlSecondHalfUsd": 565.8403286113655,
+      "closes": 93,
+      "wins": 70,
+      "winRate": 0.7526881720430108,
+      "profitFactor": 65.36433075228605,
+      "biggestWinShare": 0.14560146080915187,
+      "eventsPerDay": 53.010076971702674,
+      "medianHoldMin": 874.3833333333333,
+      "markets": [
+        "BTC"
+      ],
+      "maxNotionalUsd": 38267.16079999168,
+      "estLeverage": 38.26716079999168,
+      "lastActive": 1792386741
+    },
+    {
+      "account": "0x65cc929e3e049885b55e3a328a28d2b04b02d2f4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-1 / 1047)",
+        "median hold 0.9 min is too fast to copy with a few seconds of lag",
+        "runs ~30.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1045.824961,
+      "pnlFirstHalfUsd": -1.09183,
+      "pnlSecondHalfUsd": 1046.916791,
+      "closes": 58,
+      "wins": 51,
+      "winRate": 0.8793103448275862,
+      "profitFactor": 418.72144779485234,
+      "biggestWinShare": 0.5881952176776201,
+      "eventsPerDay": 37.12273227990145,
+      "medianHoldMin": 0.8666666666666667,
+      "markets": [
+        "VVV",
+        "BTC",
+        "ZEC",
+        "PUMP",
+        "XLM",
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 30441.89313792683,
+      "estLeverage": 30.44189313792683,
+      "lastActive": 1792389664
+    },
+    {
+      "account": "0xbce44b491de1789f38a4367805eee236c299dc01",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~27.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 1023.5242059999996,
+      "pnlFirstHalfUsd": 105.76161700000002,
+      "pnlSecondHalfUsd": 917.7625890000002,
+      "closes": 149,
+      "wins": 141,
+      "winRate": 0.9463087248322147,
+      "profitFactor": 36.42798787079609,
+      "biggestWinShare": 0.06988552090215545,
+      "eventsPerDay": 99.14020260068848,
+      "medianHoldMin": 18.700000000000003,
+      "markets": [
+        "NEAR",
+        "SUI",
+        "ETH",
+        "BTC",
+        "WLD",
+        "HYPE",
+        "SOL"
+      ],
+      "maxNotionalUsd": 27198.024428041947,
+      "estLeverage": 27.198024428041947,
+      "lastActive": 1792390709
+    },
+    {
+      "account": "0x1785db22ac1fd2eec2f7ba6ed6e9e68655b5a2f4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-62 / 1050)",
+        "runs ~14.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 988.42614,
+      "pnlFirstHalfUsd": -61.761800000000015,
+      "pnlSecondHalfUsd": 1050.18794,
+      "closes": 20,
+      "wins": 16,
+      "winRate": 0.8,
+      "profitFactor": 5.418388216035768,
+      "biggestWinShare": 0.17145671702671536,
+      "eventsPerDay": 13.812360783979367,
+      "medianHoldMin": 1140.2,
+      "markets": [
+        "XLM",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 14023.14374996565,
+      "estLeverage": 14.02314374996565,
+      "lastActive": 1792366253
+    },
+    {
+      "account": "0x1f51bba155f9789201f2b0cb223cff1943ce09a4",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~31.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 962.845017,
+      "pnlFirstHalfUsd": 381.35201700000005,
+      "pnlSecondHalfUsd": 581.493,
+      "closes": 50,
+      "wins": 35,
+      "winRate": 0.7,
+      "profitFactor": 5.586389316136925,
+      "biggestWinShare": 0.18859974396822923,
+      "eventsPerDay": 32.441101225705445,
+      "medianHoldMin": 12.75,
+      "markets": [
+        "HYPE",
+        "BTC",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 31716.01498572808,
+      "estLeverage": 31.71601498572808,
+      "lastActive": 1792391243
+    },
+    {
+      "account": "0x610e99e9fabba5a348dcf2aed6fb3f6569e869d1",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "runs ~8.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 927.4015230000001,
+      "pnlFirstHalfUsd": 537.5479,
+      "pnlSecondHalfUsd": 389.85362299999997,
+      "closes": 22,
+      "wins": 9,
+      "winRate": 0.4090909090909091,
+      "profitFactor": 3192.5751467764253,
+      "biggestWinShare": 0.332146999431452,
+      "eventsPerDay": 15.870754425343746,
+      "medianHoldMin": 0.06666666666666667,
+      "markets": [
+        "NEAR",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 8857.06860044922,
+      "estLeverage": 8.85706860044922,
+      "lastActive": 1792305411
+    },
+    {
+      "account": "0x2794524b2254d032c2867fa5b7350c947db06bba",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~9.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 879.24559,
+      "pnlFirstHalfUsd": 139.7,
+      "pnlSecondHalfUsd": 739.54559,
+      "closes": 16,
+      "wins": 16,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.3231793658824563,
+      "eventsPerDay": 13.62212614481217,
+      "medianHoldMin": 1135.3833333333334,
+      "markets": [
+        "XLM",
+        "HYPE",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 9791.202670975945,
+      "estLeverage": 9.791202670975945,
+      "lastActive": 1792363407
+    },
+    {
+      "account": "0xd5d1a5fa72699533cfba299a8f9d7ff745d4c3a2",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (864 / 0)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~8.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 863.6582134144634,
+      "pnlFirstHalfUsd": 863.6582134144634,
+      "pnlSecondHalfUsd": 0,
+      "closes": 15,
+      "wins": 15,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.13907022198525584,
+      "eventsPerDay": 15,
+      "medianHoldMin": 0,
+      "markets": [
+        "NEAR"
+      ],
+      "maxNotionalUsd": 8497.786265631248,
+      "estLeverage": 8.497786265631248,
+      "lastActive": 1792118070
+    },
+    {
+      "account": "0x7eca608ab206d5763459ea3eb0133933a6ac81ff",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (831 / 0)",
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "62% of profit came from one trade",
+        "runs ~25.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 830.9481130000001,
+      "pnlFirstHalfUsd": 830.9481130000001,
+      "pnlSecondHalfUsd": 0,
+      "closes": 24,
+      "wins": 6,
+      "winRate": 0.25,
+      "profitFactor": 12.750282685476893,
+      "biggestWinShare": 0.6225733551548664,
+      "eventsPerDay": 45,
+      "medianHoldMin": 0.05,
+      "markets": [
+        "SOL",
+        "NEAR",
+        "SUI",
+        "BNB",
+        "AVAX",
+        "LINK"
+      ],
+      "maxNotionalUsd": 25889.814609513247,
+      "estLeverage": 25.889814609513248,
+      "lastActive": 1792152079
+    },
+    {
+      "account": "0x1341f5b1626eeac36eb5d3f2bf5587f45e91971a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "runs ~42.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 824.130416,
+      "pnlFirstHalfUsd": 450.290563,
+      "pnlSecondHalfUsd": 373.83985299999995,
+      "closes": 12,
+      "wins": 10,
+      "winRate": 0.8333333333333334,
+      "profitFactor": 3049.9471550129488,
+      "biggestWinShare": 0.34935686515495645,
+      "eventsPerDay": 12.382584601787878,
+      "medianHoldMin": 0.05,
+      "markets": [
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 41963.94416886909,
+      "estLeverage": 41.96394416886909,
+      "lastActive": 1792345069
+    },
+    {
+      "account": "0xf7a045c6764328c5e204a9f0d90fe13c5a69877f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 801)",
+        "runs ~21.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 801.2935639999996,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 801.2935639999996,
+      "closes": 37,
+      "wins": 36,
+      "winRate": 0.972972972972973,
+      "profitFactor": 42.43513064374616,
+      "biggestWinShare": 0.4806097773208635,
+      "eventsPerDay": 49.98095238095238,
+      "medianHoldMin": 2009.4333333333334,
+      "markets": [
+        "ETH",
+        "SOL",
+        "BTC",
+        "XRP"
+      ],
+      "maxNotionalUsd": 21516.99207537307,
+      "estLeverage": 21.516992075373068,
+      "lastActive": 1792365047
+    },
+    {
+      "account": "0xec596afe9cd4313676ec4b41df83db67adaaa497",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~33.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 783.869882,
+      "pnlFirstHalfUsd": 407.166835,
+      "pnlSecondHalfUsd": 376.703047,
+      "closes": 26,
+      "wins": 26,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.1688146767656476,
+      "eventsPerDay": 15.847871109317628,
+      "medianHoldMin": 769.6833333333333,
+      "markets": [
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 33688.271478500166,
+      "estLeverage": 33.68827147850017,
+      "lastActive": 1792386449
+    },
+    {
+      "account": "0xc01592f1004ea02c6010f142ce430a31e4ee0d94",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "not positive in both halves of the window (0 / 764)",
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "61% of profit came from one trade",
+        "runs ~41.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 764.406299,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 764.406299,
+      "closes": 6,
+      "wins": 5,
+      "winRate": 0.8333333333333334,
+      "profitFactor": 12552.827569786534,
+      "biggestWinShare": 0.6074897555722092,
+      "eventsPerDay": 14,
+      "medianHoldMin": 0.08333333333333333,
+      "markets": [
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 40983.843940125735,
+      "estLeverage": 40.98384394012574,
+      "lastActive": 1792345032
+    },
+    {
+      "account": "0x5bb0c8d5beb530bf16c2069d0a617bb2b5b044ad",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (764 / 0)",
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "runs ~6.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 763.868948,
+      "pnlFirstHalfUsd": 763.868948,
+      "pnlSecondHalfUsd": 0,
+      "closes": 22,
+      "wins": 3,
+      "winRate": 0.13636363636363635,
+      "profitFactor": 34.93990805860991,
+      "biggestWinShare": 0.5497274324511525,
+      "eventsPerDay": 38,
+      "medianHoldMin": 0.13333333333333333,
+      "markets": [
+        "ADA",
+        "SOL",
+        "NEAR",
+        "XRP",
+        "ETH"
+      ],
+      "maxNotionalUsd": 6880.354970010802,
+      "estLeverage": 6.880354970010802,
+      "lastActive": 1792113742
+    },
+    {
+      "account": "0xff4c5c6d6cf3dd125bfb18f7afb6c77934318329",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~20.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 763.5465080256191,
+      "pnlFirstHalfUsd": 239.6491020851905,
+      "pnlSecondHalfUsd": 523.8974059404286,
+      "closes": 32,
+      "wins": 20,
+      "winRate": 0.625,
+      "profitFactor": 8.64032603424245,
+      "biggestWinShare": 0.2118345788431594,
+      "eventsPerDay": 19.913704568641474,
+      "medianHoldMin": 0,
+      "markets": [
+        "LINK"
+      ],
+      "maxNotionalUsd": 20854.527839340837,
+      "estLeverage": 20.854527839340836,
+      "lastActive": 1792371167
+    },
+    {
+      "account": "0x6da186b5b8c6e303b005292050cb474b1c6abe32",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)",
+        "not positive in both halves of the window (0 / 761)",
+        "runs ~35.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 761.0689,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 761.0689,
+      "closes": 7,
+      "wins": 7,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.5248431503755672,
+      "eventsPerDay": 12,
+      "medianHoldMin": 254.76666666666668,
+      "markets": [
+        "SOL"
+      ],
+      "maxNotionalUsd": 35159.78984011324,
+      "estLeverage": 35.15978984011324,
+      "lastActive": 1792378165
+    },
+    {
+      "account": "0x7ca221d61f63e14c463e11dbef4ae733af9f5a68",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-643 / 1402)",
+        "runs ~21.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 758.4385700000001,
+      "pnlFirstHalfUsd": -643.24425,
+      "pnlSecondHalfUsd": 1401.68282,
+      "closes": 22,
+      "wins": 15,
+      "winRate": 0.6818181818181818,
+      "profitFactor": 2.17908332643471,
+      "biggestWinShare": 0.1982282368221773,
+      "eventsPerDay": 13.721130722809566,
+      "medianHoldMin": 1066.35,
+      "markets": [
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 21209.444035145716,
+      "estLeverage": 21.209444035145715,
+      "lastActive": 1792395092
+    },
+    {
+      "account": "0x3a58cb07cfe500e85efa12b9feedb666381cf545",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "not positive in both halves of the window (0 / 754)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "61% of profit came from one trade",
+        "runs ~40.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 753.687008,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 753.687008,
+      "closes": 6,
+      "wins": 5,
+      "winRate": 0.8333333333333334,
+      "profitFactor": 10616.309971830988,
+      "biggestWinShare": 0.6074569557010147,
+      "eventsPerDay": 16,
+      "medianHoldMin": 0.03333333333333333,
+      "markets": [
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 40490.39069995981,
+      "estLeverage": 40.49039069995981,
+      "lastActive": 1792345051
+    },
+    {
+      "account": "0x67f7c7e06f07fbe0b1fa91fff3f1f0452af7688e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~16.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 753.08787,
+      "pnlFirstHalfUsd": 638.19583,
+      "pnlSecondHalfUsd": 114.89204,
+      "closes": 23,
+      "wins": 16,
+      "winRate": 0.6956521739130435,
+      "profitFactor": 1.9623821492577165,
+      "biggestWinShare": 0.206064268542181,
+      "eventsPerDay": 16.528504017344726,
+      "medianHoldMin": 1112.7166666666667,
+      "markets": [
+        "XLM",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 16901.95671162683,
+      "estLeverage": 16.90195671162683,
+      "lastActive": 1792365838
+    },
+    {
+      "account": "0x654950c34e5edc2daa4c3c9a8449dee6971a6001",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~34.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 738.2357480000001,
+      "pnlFirstHalfUsd": 488.289541,
+      "pnlSecondHalfUsd": 249.946207,
+      "closes": 81,
+      "wins": 59,
+      "winRate": 0.7283950617283951,
+      "profitFactor": 2.0567402695570944,
+      "biggestWinShare": 0.2566329033228816,
+      "eventsPerDay": 77.89303560532348,
+      "medianHoldMin": 142.51666666666668,
+      "markets": [
+        "HYPE",
+        "BTC",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 34290.11624146445,
+      "estLeverage": 34.290116241464446,
+      "lastActive": 1792323379
+    },
+    {
+      "account": "0xed99711e5d56601009b52a9100def8bb16aafbe6",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (725 / -3)",
+        "runs ~44.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 722.1934850672042,
+      "pnlFirstHalfUsd": 725.0047099116043,
+      "pnlSecondHalfUsd": -2.811224844400023,
+      "closes": 28,
+      "wins": 18,
+      "winRate": 0.6428571428571429,
+      "profitFactor": 135.3104347378662,
+      "biggestWinShare": 0.5113625074499589,
+      "eventsPerDay": 16.127426580388253,
+      "medianHoldMin": 2654.516666666667,
+      "markets": [
+        "SOL",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 44921.49185558446,
+      "estLeverage": 44.92149185558446,
+      "lastActive": 1792385105
+    },
+    {
+      "account": "0xd7d0cf0bd1ebca10107a31d3c105e0e47529de50",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 719)",
+        "runs ~34.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 718.7993639999996,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 718.7993639999996,
+      "closes": 218,
+      "wins": 105,
+      "winRate": 0.481651376146789,
+      "profitFactor": 2.00561455244261,
+      "biggestWinShare": 0.08588676866637342,
+      "eventsPerDay": 263.3480187938401,
+      "medianHoldMin": 27.566666666666666,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "ETH",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 34235.09216628409,
+      "estLeverage": 34.23509216628409,
+      "lastActive": 1792392428
+    },
+    {
+      "account": "0x338f46cbafc5f4c6deb95d318e5daa8d39783e86",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 717)",
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "61% of profit came from one trade",
+        "runs ~39.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 717.446974,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 717.446974,
+      "closes": 8,
+      "wins": 7,
+      "winRate": 0.875,
+      "profitFactor": 7262.6090485829955,
+      "biggestWinShare": 0.6060580374474595,
+      "eventsPerDay": 10,
+      "medianHoldMin": 0.06666666666666667,
+      "markets": [
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 39935.43811508355,
+      "estLeverage": 39.93543811508355,
+      "lastActive": 1792345029
+    },
+    {
+      "account": "0xf75f1bfb04d4992d5d6f746d6324f4ca144b7a29",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~34.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 712.556,
+      "pnlFirstHalfUsd": 101.7319,
+      "pnlSecondHalfUsd": 610.8240999999999,
+      "closes": 25,
+      "wins": 19,
+      "winRate": 0.76,
+      "profitFactor": 15.00697836706211,
+      "biggestWinShare": 0.30092409900530337,
+      "eventsPerDay": 14.595078003378491,
+      "medianHoldMin": 163.78333333333333,
+      "markets": [
+        "SOL"
+      ],
+      "maxNotionalUsd": 34160.6561306285,
+      "estLeverage": 34.1606561306285,
+      "lastActive": 1792380769
+    },
+    {
+      "account": "0xe62dd6952d57804f7b2a8d194ad6eb6cdbba675e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 3 closes (need 8)",
+        "not positive in both halves of the window (711 / 0)",
+        "66% of profit came from one trade",
+        "runs ~9.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 710.58557,
+      "pnlFirstHalfUsd": 710.58557,
+      "pnlSecondHalfUsd": 0,
+      "closes": 3,
+      "wins": 3,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.6610594044248636,
+      "eventsPerDay": 6,
+      "medianHoldMin": 1302.15,
+      "markets": [
+        "NEAR"
+      ],
+      "maxNotionalUsd": 9028.107233080873,
+      "estLeverage": 9.028107233080872,
+      "lastActive": 1792170904
+    },
+    {
+      "account": "0xcbf27dbc940b64e895ebaac015ab1b4c4563d968",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~25.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 709.812728,
+      "pnlFirstHalfUsd": 701.331132,
+      "pnlSecondHalfUsd": 8.481596,
+      "closes": 10,
+      "wins": 10,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.5952448883108785,
+      "eventsPerDay": 8.131323186071345,
+      "medianHoldMin": 2994.95,
+      "markets": [
+        "ETH",
+        "BTC",
+        "SOL",
+        "HYPE",
+        "NEAR",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 25212.493421376916,
+      "estLeverage": 25.212493421376916,
+      "lastActive": 1792393553
+    },
+    {
+      "account": "0x58815fb7e3db4ad7904858cb48347c86b0252406",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (850 / -152)",
+        "median hold 0.5 min is too fast to copy with a few seconds of lag",
+        "runs ~36.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 697.4079020000003,
+      "pnlFirstHalfUsd": 849.6429000000004,
+      "pnlSecondHalfUsd": -152.23499799999982,
+      "closes": 344,
+      "wins": 125,
+      "winRate": 0.3633720930232558,
+      "profitFactor": 1.810238485344499,
+      "biggestWinShare": 0.0487778406976406,
+      "eventsPerDay": 198.41924879345316,
+      "medianHoldMin": 0.475,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "NEAR",
+        "ETH"
+      ],
+      "maxNotionalUsd": 35956.141079717396,
+      "estLeverage": 35.9561410797174,
+      "lastActive": 1792354291
+    },
+    {
+      "account": "0xea5dd0a557c04e8faa9a2de95718f7136fec14a0",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~12.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 696.0559840000001,
+      "pnlFirstHalfUsd": 371.901664,
+      "pnlSecondHalfUsd": 324.15432,
+      "closes": 11,
+      "wins": 11,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.2688327774614042,
+      "eventsPerDay": 6.846577151661897,
+      "medianHoldMin": 1891.3500000000001,
+      "markets": [
+        "ETH",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 12385.433247750836,
+      "estLeverage": 12.385433247750836,
+      "lastActive": 1792303354
+    },
+    {
+      "account": "0x8f0843bc18a8c95488839e71086ffd95f08cfde6",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-263 / 934)",
+        "profit factor 1.10 < 1.3",
+        "1775 changes/day looks like a market maker, not copyable",
+        "runs ~101.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 671.3282521190869,
+      "pnlFirstHalfUsd": -262.69304247874294,
+      "pnlSecondHalfUsd": 934.0212945978287,
+      "closes": 3409,
+      "wins": 1558,
+      "winRate": 0.45702552068055147,
+      "profitFactor": 1.0957500102100513,
+      "biggestWinShare": 0.05407124801554197,
+      "eventsPerDay": 1775.1647237709074,
+      "medianHoldMin": 36.15833333333333,
+      "markets": [
+        "HYPE"
+      ],
+      "maxNotionalUsd": 101327.15539498578,
+      "estLeverage": 101.32715539498578,
+      "lastActive": 1792395511
+    },
+    {
+      "account": "0x1bfb8d7d946d1a741f2e8a25e0c20edc0c759873",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~34.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 649.878224,
+      "pnlFirstHalfUsd": 106.66080000000002,
+      "pnlSecondHalfUsd": 543.2174239999999,
+      "closes": 23,
+      "wins": 17,
+      "winRate": 0.7391304347826086,
+      "profitFactor": 10.399062659759771,
+      "biggestWinShare": 0.28579566463014544,
+      "eventsPerDay": 14.880615256207708,
+      "medianHoldMin": 163.26666666666668,
+      "markets": [
+        "SOL",
+        "BNB"
+      ],
+      "maxNotionalUsd": 34244.09330087089,
+      "estLeverage": 34.24409330087089,
+      "lastActive": 1792380740
+    },
+    {
+      "account": "0x6d83fc772f9aff6bec2fecfcae79845177a96c1d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~31.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 644.1560999999999,
+      "pnlFirstHalfUsd": 68.38920000000002,
+      "pnlSecondHalfUsd": 575.7669,
+      "closes": 20,
+      "wins": 17,
+      "winRate": 0.85,
+      "profitFactor": 9.143586962293204,
+      "biggestWinShare": 0.3205957517390507,
+      "eventsPerDay": 12.877199606530013,
+      "medianHoldMin": 165.03333333333333,
+      "markets": [
+        "SOL"
+      ],
+      "maxNotionalUsd": 31528.688684501667,
+      "estLeverage": 31.528688684501667,
+      "lastActive": 1792380757
+    },
+    {
+      "account": "0x993f981eb859799d2a5f57db4a75e0a37ffe16af",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~20.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 617.573739,
+      "pnlFirstHalfUsd": 483.224839,
+      "pnlSecondHalfUsd": 134.3489,
+      "closes": 27,
+      "wins": 25,
+      "winRate": 0.9259259259259259,
+      "profitFactor": 1183.4119069500289,
+      "biggestWinShare": 0.3307887077399634,
+      "eventsPerDay": 17.48183573990619,
+      "medianHoldMin": 1530.2833333333333,
+      "markets": [
+        "NEAR",
+        "HYPE",
+        "BTC",
+        "SOL",
+        "SUI",
+        "XRP"
+      ],
+      "maxNotionalUsd": 20916.921266628968,
+      "estLeverage": 20.916921266628968,
+      "lastActive": 1792389617
+    },
+    {
+      "account": "0xdec00272b831af8cbe05300dadc81df018db999f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)",
+        "not positive in both halves of the window (0 / 614)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~21.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 614.2704,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 614.2704,
+      "closes": 7,
+      "wins": 7,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.4491985532176789,
+      "eventsPerDay": 7,
+      "medianHoldMin": 0,
+      "markets": [
+        "SOL"
+      ],
+      "maxNotionalUsd": 21276.478411807788,
+      "estLeverage": 21.276478411807787,
+      "lastActive": 1792380943
+    },
+    {
+      "account": "0xf5854a614fd403c7390c43ee22621e801cbd8d7c",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (612 / -16)",
+        "runs ~41.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 596.2001942208526,
+      "pnlFirstHalfUsd": 612.0070380000001,
+      "pnlSecondHalfUsd": -15.80684377914747,
+      "closes": 124,
+      "wins": 56,
+      "winRate": 0.45161290322580644,
+      "profitFactor": 1.583794640420716,
+      "biggestWinShare": 0.16975337297464407,
+      "eventsPerDay": 59.44877311315269,
+      "medianHoldMin": 282.05,
+      "markets": [
+        "BTC",
+        "SOL",
+        "NEAR",
+        "ETH"
+      ],
+      "maxNotionalUsd": 40963.4762183899,
+      "estLeverage": 40.9634762183899,
+      "lastActive": 1792387721
+    },
+    {
+      "account": "0xe7010cac2c5aab29dd78bba47e98d591fa69ad23",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~17.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 594.561525,
+      "pnlFirstHalfUsd": 82.372335,
+      "pnlSecondHalfUsd": 512.18919,
+      "closes": 74,
+      "wins": 52,
+      "winRate": 0.7027027027027027,
+      "profitFactor": 15.853756885512484,
+      "biggestWinShare": 0.13192224735458502,
+      "eventsPerDay": 48.598540465911334,
+      "medianHoldMin": 56.75,
+      "markets": [
+        "SUI",
+        "BTC",
+        "SOL",
+        "ETH",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 17173.53358321212,
+      "estLeverage": 17.17353358321212,
+      "lastActive": 1792388647
+    },
+    {
+      "account": "0x1fc0b672677b394301b141ecaf4a1be359743385",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 3 closes (need 8)",
+        "not positive in both halves of the window (592 / 0)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "66% of profit came from one trade",
+        "runs ~8.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 592.31488,
+      "pnlFirstHalfUsd": 592.31488,
+      "pnlSecondHalfUsd": 0,
+      "closes": 3,
+      "wins": 3,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.6636304196246288,
+      "eventsPerDay": 6,
+      "medianHoldMin": 0,
+      "markets": [
+        "NEAR"
+      ],
+      "maxNotionalUsd": 8749.28390000383,
+      "estLeverage": 8.74928390000383,
+      "lastActive": 1792137604
+    },
+    {
+      "account": "0x91878822b8de651877e0afb0cf0f44b6c95e352d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 586)",
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "64% of profit came from one trade",
+        "runs ~24.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 585.9712209999988,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 585.9712209999988,
+      "closes": 25,
+      "wins": 10,
+      "winRate": 0.4,
+      "profitFactor": 11.849931522644813,
+      "biggestWinShare": 0.6437660652170476,
+      "eventsPerDay": 44.41636054021056,
+      "medianHoldMin": 0.125,
+      "markets": [
+        "SUI",
+        "BTC",
+        "ADA",
+        "VVV",
+        "1000PEPE",
+        "XLM",
+        "ZEC"
+      ],
+      "maxNotionalUsd": 24588.675739427774,
+      "estLeverage": 24.588675739427774,
+      "lastActive": 1792382406
+    },
+    {
+      "account": "0x0874763f36cfac2422701acbdaf1d011d3a5136e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (722 / -137)",
+        "runs ~30.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 585.0958199999999,
+      "pnlFirstHalfUsd": 722.20352,
+      "pnlSecondHalfUsd": -137.10769999999985,
+      "closes": 32,
+      "wins": 24,
+      "winRate": 0.75,
+      "profitFactor": 1.3761439001196383,
+      "biggestWinShare": 0.17077705450632386,
+      "eventsPerDay": 18.540889553708364,
+      "medianHoldMin": 835.1583333333333,
+      "markets": [
+        "ADA",
+        "XRP",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 30088.710356685697,
+      "estLeverage": 30.088710356685695,
+      "lastActive": 1792394961
+    },
+    {
+      "account": "0x2d4487267b24aa62dd0386f45dedd92e16bb7b07",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)",
+        "not positive in both halves of the window (0 / 577)",
+        "runs ~18.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 577.107625,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 577.107625,
+      "closes": 7,
+      "wins": 7,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.4321298277804466,
+      "eventsPerDay": 3.5456071628427535,
+      "medianHoldMin": 4467.5,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18345.521915548034,
+      "estLeverage": 18.345521915548034,
+      "lastActive": 1792351745
+    },
+    {
+      "account": "0xac31fb25a5bbde56ff76270e09376b0f6bae718b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 1 closes (need 8)",
+        "not positive in both halves of the window (0 / 574)",
+        "100% of profit came from one trade",
+        "runs ~18.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 573.506977,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 573.506977,
+      "closes": 1,
+      "wins": 1,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 1,
+      "eventsPerDay": 2.2739235709022,
+      "medianHoldMin": 3166.3333333333335,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18406.778179844492,
+      "estLeverage": 18.40677817984449,
+      "lastActive": 1792273145
+    },
+    {
+      "account": "0xaaf2b3925f45717f94dfb98a5120fa86e773ec92",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~25.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 573.0869715560975,
+      "pnlFirstHalfUsd": 87.759457,
+      "pnlSecondHalfUsd": 485.3275145560975,
+      "closes": 17,
+      "wins": 16,
+      "winRate": 0.9411764705882353,
+      "profitFactor": 6372.463769230315,
+      "biggestWinShare": 0.46614647566594464,
+      "eventsPerDay": 13.59235519916576,
+      "medianHoldMin": 2917.9166666666665,
+      "markets": [
+        "BTC",
+        "SOL",
+        "NEAR",
+        "XRP",
+        "ETH"
+      ],
+      "maxNotionalUsd": 25044.881239970124,
+      "estLeverage": 25.044881239970124,
+      "lastActive": 1792378132
+    },
+    {
+      "account": "0x6abb7fc64db0351fc1f7fd10f06190be21c4dc05",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~9.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 570.7863009999998,
+      "pnlFirstHalfUsd": 378.127,
+      "pnlSecondHalfUsd": 192.659301,
+      "closes": 25,
+      "wins": 23,
+      "winRate": 0.92,
+      "profitFactor": 8.486178907234546,
+      "biggestWinShare": 0.526267457826526,
+      "eventsPerDay": 21.276857723326973,
+      "medianHoldMin": 1235.7166666666667,
+      "markets": [
+        "SUI",
+        "SOL",
+        "HYPE",
+        "BNB",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 9767.628054498124,
+      "estLeverage": 9.767628054498124,
+      "lastActive": 1792340130
+    },
+    {
+      "account": "0x4053dd48946b07539feb06ea54bec553888be653",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 2 closes (need 8)",
+        "not positive in both halves of the window (0 / 568)",
+        "81% of profit came from one trade",
+        "runs ~18.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 568.32127,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 568.32127,
+      "closes": 2,
+      "wins": 2,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.809692506732564,
+      "eventsPerDay": 2.733038449169386,
+      "medianHoldMin": 3161.3166666666666,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18351.5989258949,
+      "estLeverage": 18.3515989258949,
+      "lastActive": 1792273145
+    },
+    {
+      "account": "0x7e5707c0d015d4652292c121b0f635b78214af78",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 2 closes (need 8)",
+        "not positive in both halves of the window (0 / 565)",
+        "94% of profit came from one trade",
+        "runs ~18.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 564.734359,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 564.734359,
+      "closes": 2,
+      "wins": 2,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.9384602699549931,
+      "eventsPerDay": 1.3697471886361716,
+      "medianHoldMin": 3153.866666666667,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18325.589321610296,
+      "estLeverage": 18.325589321610295,
+      "lastActive": 1792273145
+    },
+    {
+      "account": "0x2682bb1ef8cac0e16798ae1b7cde4759149615a1",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~8.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 551.2643733604264,
+      "pnlFirstHalfUsd": 179.315595,
+      "pnlSecondHalfUsd": 371.94877836042616,
+      "closes": 79,
+      "wins": 47,
+      "winRate": 0.5949367088607594,
+      "profitFactor": 18.723585754179663,
+      "biggestWinShare": 0.10955941982231894,
+      "eventsPerDay": 40.185162488568764,
+      "medianHoldMin": 332.4666666666667,
+      "markets": [
+        "BTC",
+        "SOL",
+        "ETH",
+        "NEAR",
+        "AVAX",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 8087.2915663831245,
+      "estLeverage": 8.087291566383124,
+      "lastActive": 1792394705
+    },
+    {
+      "account": "0xf5c57d114c12aba9bce3dbcdc3aa0150b4f14fcd",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~10.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 546.366134,
+      "pnlFirstHalfUsd": 417.15479600000003,
+      "pnlSecondHalfUsd": 129.21133799999996,
+      "closes": 26,
+      "wins": 23,
+      "winRate": 0.8846153846153846,
+      "profitFactor": 3.590280345251536,
+      "biggestWinShare": 0.15608076475979152,
+      "eventsPerDay": 15.23575864448363,
+      "medianHoldMin": 1123.8166666666666,
+      "markets": [
+        "WLD",
+        "SUI",
+        "NEAR",
+        "BTC",
+        "BNB",
+        "PUMP",
+        "ETH"
+      ],
+      "maxNotionalUsd": 10326.07792154298,
+      "estLeverage": 10.326077921542979,
+      "lastActive": 1792379591
+    },
+    {
+      "account": "0x32edb4347945c5999cc8c8f5bc60af09dba530a1",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 539)",
+        "runs ~32.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 538.9509840000001,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 538.9509840000001,
+      "closes": 269,
+      "wins": 102,
+      "winRate": 0.379182156133829,
+      "profitFactor": 1.5672667428308518,
+      "biggestWinShare": 0.07420647240861458,
+      "eventsPerDay": 370.048737261852,
+      "medianHoldMin": 28.3,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "HYPE",
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 32575.692424195026,
+      "estLeverage": 32.575692424195026,
+      "lastActive": 1792370773
+    },
+    {
+      "account": "0x1efdab9adfb6522f383410f8a05c274041b78a5b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 535)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "66% of profit came from one trade",
+        "runs ~21.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 534.6518400000001,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 534.6518400000001,
+      "closes": 13,
+      "wins": 6,
+      "winRate": 0.46153846153846156,
+      "profitFactor": 123.70903152806825,
+      "biggestWinShare": 0.6552560346038068,
+      "eventsPerDay": 31,
+      "medianHoldMin": 0.03333333333333333,
+      "markets": [
+        "XRP"
+      ],
+      "maxNotionalUsd": 21480.536256767653,
+      "estLeverage": 21.480536256767653,
+      "lastActive": 1792344695
+    },
+    {
+      "account": "0x1f72d1ec85bd67e40b2d92c085ad017ab60d7ccd",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~17.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 527.476407,
+      "pnlFirstHalfUsd": 145.86698000000007,
+      "pnlSecondHalfUsd": 381.609427,
+      "closes": 45,
+      "wins": 43,
+      "winRate": 0.9555555555555556,
+      "profitFactor": 1226.4353847226093,
+      "biggestWinShare": 0.1972425605728058,
+      "eventsPerDay": 32.6646870331558,
+      "medianHoldMin": 47.1,
+      "markets": [
+        "SUI",
+        "BTC",
+        "NEAR",
+        "DOGE",
+        "WLD",
+        "ETH"
+      ],
+      "maxNotionalUsd": 17573.15276871876,
+      "estLeverage": 17.57315276871876,
+      "lastActive": 1792388831
+    },
+    {
+      "account": "0x2b0ff474d10e86fa10849b42ff016496323da0ec",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~37.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 514.3992800000001,
+      "pnlFirstHalfUsd": 439.6551870000002,
+      "pnlSecondHalfUsd": 74.74409300000003,
+      "closes": 69,
+      "wins": 20,
+      "winRate": 0.2898550724637681,
+      "profitFactor": 1.6870545712395757,
+      "biggestWinShare": 0.34379037849555893,
+      "eventsPerDay": 45.094801571485505,
+      "medianHoldMin": 66.55,
+      "markets": [
+        "ETH",
+        "SOL",
+        "BTC",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 37562.24403442349,
+      "estLeverage": 37.56224403442349,
+      "lastActive": 1792395364
+    },
+    {
+      "account": "0x2e5e7f9bd71aa5f51e25d7aa3bb42c1693951eee",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~8.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 513.5591969999999,
+      "pnlFirstHalfUsd": 95.72827999999994,
+      "pnlSecondHalfUsd": 417.83091699999994,
+      "closes": 55,
+      "wins": 51,
+      "winRate": 0.9272727272727272,
+      "profitFactor": 8.576490080294162,
+      "biggestWinShare": 0.07471172366135988,
+      "eventsPerDay": 27.884033944598826,
+      "medianHoldMin": 201.75,
+      "markets": [
+        "BTC",
+        "ETH",
+        "AVAX",
+        "DOGE",
+        "WLD",
+        "NEAR",
+        "HYPE",
+        "SOL",
+        "ZRO",
+        "PUMP",
+        "LINK",
+        "SUI"
+      ],
+      "maxNotionalUsd": 8804.599166184064,
+      "estLeverage": 8.804599166184063,
+      "lastActive": 1792380852
+    },
+    {
+      "account": "0x9eef25aaeecdb6f5fe574fcb7e29d6a553d54d63",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 1 closes (need 8)",
+        "not positive in both halves of the window (0 / 506)",
+        "100% of profit came from one trade",
+        "runs ~18.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 506.035761,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 506.035761,
+      "closes": 1,
+      "wins": 1,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 1,
+      "eventsPerDay": 2.6772710840262355,
+      "medianHoldMin": 3227.1666666666665,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18250.96363455072,
+      "estLeverage": 18.250963634550722,
+      "lastActive": 1792273090
+    },
+    {
+      "account": "0x420691db9d2b5a79210fda48c177471386b6dfd1",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "7653 changes/day looks like a market maker, not copyable",
+        "runs ~355.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 495.76923456176235,
+      "pnlFirstHalfUsd": 230.35685409171614,
+      "pnlSecondHalfUsd": 265.412380470045,
+      "closes": 3945,
+      "wins": 2207,
+      "winRate": 0.5594423320659062,
+      "profitFactor": 1.4293150670373589,
+      "biggestWinShare": 0.0019567467965423305,
+      "eventsPerDay": 7653.038515066694,
+      "medianHoldMin": 9.116666666666667,
+      "markets": [
+        "ETH",
+        "BTC",
+        "SOL",
+        "XLM",
+        "LIT",
+        "NEAR",
+        "ZEC",
+        "BNB",
+        "XRP",
+        "DOGE",
+        "PUMP",
+        "HYPE",
+        "SUI",
+        "LINK",
+        "TAO",
+        "ADA",
+        "AVAX",
+        "VVV",
+        "WLD",
+        "ZRO",
+        "1000PEPE"
+      ],
+      "maxNotionalUsd": 355744.8569697884,
+      "estLeverage": 355.7448569697884,
+      "lastActive": 1792395568
+    },
+    {
+      "account": "0x78c15a5829f7f3633fab0d2ab9a6ac4c091e9b0c",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 1.2 min is too fast to copy with a few seconds of lag",
+        "runs ~25.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 487.6980299999999,
+      "pnlFirstHalfUsd": 252.63522099999994,
+      "pnlSecondHalfUsd": 235.06280900000002,
+      "closes": 30,
+      "wins": 13,
+      "winRate": 0.43333333333333335,
+      "profitFactor": 60.46194706536366,
+      "biggestWinShare": 0.4682674807901396,
+      "eventsPerDay": 17.238330793495724,
+      "medianHoldMin": 1.1833333333333333,
+      "markets": [
+        "ETH",
+        "SOL",
+        "WLD",
+        "BTC",
+        "HYPE",
+        "NEAR",
+        "BNB"
+      ],
+      "maxNotionalUsd": 25113.609879065196,
+      "estLeverage": 25.113609879065194,
+      "lastActive": 1792394681
+    },
+    {
+      "account": "0xa0c32469f1b51cb764021e281fbf38f3385e76a6",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "not positive in both halves of the window (0 / 487)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~15.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 486.9184,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 486.9184,
+      "closes": 6,
+      "wins": 6,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.41903095325514766,
+      "eventsPerDay": 6,
+      "medianHoldMin": 0,
+      "markets": [
+        "SOL"
+      ],
+      "maxNotionalUsd": 15758.00734197926,
+      "estLeverage": 15.75800734197926,
+      "lastActive": 1792380958
+    },
+    {
+      "account": "0xad05d08e12deabb5a0dbe80b3d2e6f3bc5c0f994",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~37.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 480.3501430000001,
+      "pnlFirstHalfUsd": 14.506395999999999,
+      "pnlSecondHalfUsd": 465.8437470000001,
+      "closes": 55,
+      "wins": 47,
+      "winRate": 0.8545454545454545,
+      "profitFactor": 2.764505863017596,
+      "biggestWinShare": 0.400423682540655,
+      "eventsPerDay": 32.62286744648389,
+      "medianHoldMin": 265.275,
+      "markets": [
+        "BTC",
+        "SUI",
+        "LINK",
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 36984.77697105113,
+      "estLeverage": 36.984776971051126,
+      "lastActive": 1792376373
+    },
+    {
+      "account": "0x4fd7e11299c97df97e3ba4d0e359ae6c5fc1ea76",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~30.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 479.40401549326066,
+      "pnlFirstHalfUsd": 427.2134602665688,
+      "pnlSecondHalfUsd": 52.19055522669182,
+      "closes": 11,
+      "wins": 9,
+      "winRate": 0.8181818181818182,
+      "profitFactor": 11.730344035614378,
+      "biggestWinShare": 0.2746370693024007,
+      "eventsPerDay": 7.850675016862316,
+      "medianHoldMin": 0,
+      "markets": [
+        "ADA"
+      ],
+      "maxNotionalUsd": 30422.28379278835,
+      "estLeverage": 30.42228379278835,
+      "lastActive": 1792362929
+    },
+    {
+      "account": "0xcfddbaf98d9a26f3807b115ca31e0013894ab83d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 4.6 min is too fast to copy with a few seconds of lag",
+        "runs ~24.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 474.5083360000001,
+      "pnlFirstHalfUsd": 271.1031859999998,
+      "pnlSecondHalfUsd": 203.40514999999996,
+      "closes": 202,
+      "wins": 92,
+      "winRate": 0.45544554455445546,
+      "profitFactor": 1.738841885099806,
+      "biggestWinShare": 0.16860340362795542,
+      "eventsPerDay": 112.5306432979233,
+      "medianHoldMin": 4.641666666666667,
+      "markets": [
+        "BTC",
+        "ETH",
+        "NEAR",
+        "SOL",
+        "HYPE",
+        "SUI"
+      ],
+      "maxNotionalUsd": 24537.023137354077,
+      "estLeverage": 24.537023137354076,
+      "lastActive": 1792395428
+    },
+    {
+      "account": "0x033ef16810c8c408e7217ef92ea9087a8377b093",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.4 min is too fast to copy with a few seconds of lag",
+        "runs ~21.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 471.3432940000001,
+      "pnlFirstHalfUsd": 270.218653,
+      "pnlSecondHalfUsd": 201.12464099999997,
+      "closes": 23,
+      "wins": 12,
+      "winRate": 0.5217391304347826,
+      "profitFactor": 20.087486278965628,
+      "biggestWinShare": 0.4486684819393722,
+      "eventsPerDay": 14.975145418368124,
+      "medianHoldMin": 0.39166666666666666,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "ETH",
+        "BTC",
+        "NEAR",
+        "SUI"
+      ],
+      "maxNotionalUsd": 21807.230089539626,
+      "estLeverage": 21.807230089539626,
+      "lastActive": 1792392345
+    },
+    {
+      "account": "0xc8e671a00a3e03140c0b5f2319fd6369e932b8a0",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 1 closes (need 8)",
+        "not positive in both halves of the window (0 / 469)",
+        "100% of profit came from one trade",
+        "runs ~18.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 468.841291,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 468.841291,
+      "closes": 1,
+      "wins": 1,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 1,
+      "eventsPerDay": 2.2858836104261693,
+      "medianHoldMin": 3149.766666666667,
+      "markets": [
+        "ETH"
+      ],
+      "maxNotionalUsd": 18187.03348570164,
+      "estLeverage": 18.18703348570164,
+      "lastActive": 1792273090
+    },
+    {
+      "account": "0x12f267b594ac3d8c6ade23e55dcfe00794744261",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~21.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 461.65719929130705,
+      "pnlFirstHalfUsd": 461.521397,
+      "pnlSecondHalfUsd": 0.13580229130707672,
+      "closes": 6,
+      "wins": 6,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.4607620228310937,
+      "eventsPerDay": 6.19277151611805,
+      "medianHoldMin": 0,
+      "markets": [
+        "ETH",
+        "BTC",
+        "SOL",
+        "BNB",
+        "LINK"
+      ],
+      "maxNotionalUsd": 21090.663591840264,
+      "estLeverage": 21.090663591840265,
+      "lastActive": 1792297991
+    },
+    {
+      "account": "0x435b8f475d822a4d20d34066cc694acf2f9b5def",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "runs ~54.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 451.6833282894343,
+      "pnlFirstHalfUsd": 90.36078499999999,
+      "pnlSecondHalfUsd": 361.3225432894343,
+      "closes": 38,
+      "wins": 14,
+      "winRate": 0.3684210526315789,
+      "profitFactor": 49.11842536994965,
+      "biggestWinShare": 0.4839450683865865,
+      "eventsPerDay": 21.448300784011813,
+      "medianHoldMin": 0.06666666666666667,
+      "markets": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 54837.21455871508,
+      "estLeverage": 54.83721455871508,
+      "lastActive": 1792394893
+    },
+    {
+      "account": "0x322919e022f256ba5f6fa2116581c69c5bee91a8",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~12.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 451.4175609999999,
+      "pnlFirstHalfUsd": 357.1449589999999,
+      "pnlSecondHalfUsd": 94.272602,
+      "closes": 24,
+      "wins": 24,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.12729522146469177,
+      "eventsPerDay": 11.595670029564358,
+      "medianHoldMin": 2118.233333333333,
+      "markets": [
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 12055.235336446907,
+      "estLeverage": 12.055235336446907,
+      "lastActive": 1792391103
+    },
+    {
+      "account": "0x3196b17bcc10e6b5f7b6385d4678c1351fd3d856",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (495 / -50)",
+        "runs ~25.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 445.367355,
+      "pnlFirstHalfUsd": 495.44360599999993,
+      "pnlSecondHalfUsd": -50.076251,
+      "closes": 8,
+      "wins": 5,
+      "winRate": 0.625,
+      "profitFactor": 9.893783901674267,
+      "biggestWinShare": 0.5639487736168303,
+      "eventsPerDay": 13.86735147414687,
+      "medianHoldMin": 1178.5,
+      "markets": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "WLD"
+      ],
+      "maxNotionalUsd": 25200.083255290396,
+      "estLeverage": 25.200083255290394,
+      "lastActive": 1792286557
+    },
+    {
+      "account": "0x80ec7201f529408f1247eb77f4d19b4b0f50e205",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.1 min is too fast to copy with a few seconds of lag",
+        "runs ~20.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 445.2949930000003,
+      "pnlFirstHalfUsd": 256.963216,
+      "pnlSecondHalfUsd": 188.3317769999999,
+      "closes": 42,
+      "wins": 39,
+      "winRate": 0.9285714285714286,
+      "profitFactor": 65.3188821012824,
+      "biggestWinShare": 0.4090546047736555,
+      "eventsPerDay": 20.759033501519948,
+      "medianHoldMin": 0.09166666666666667,
+      "markets": [
+        "SOL",
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 20535.515495569874,
+      "estLeverage": 20.535515495569875,
+      "lastActive": 1792390841
+    },
+    {
+      "account": "0x9289bb67236e5fdb235506c0bc33527a90a17cbd",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~13.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 434.55131000000006,
+      "pnlFirstHalfUsd": 333.16157,
+      "pnlSecondHalfUsd": 101.38974000000003,
+      "closes": 21,
+      "wins": 13,
+      "winRate": 0.6190476190476191,
+      "profitFactor": 2.2597845654576783,
+      "biggestWinShare": 0.24131154961534704,
+      "eventsPerDay": 18.129294191130544,
+      "medianHoldMin": 448.1,
+      "markets": [
+        "ADA",
+        "XRP",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 13872.551623456346,
+      "estLeverage": 13.872551623456346,
+      "lastActive": 1792363797
+    },
+    {
+      "account": "0x075014cb26c1de8d0408ee7eea53d2258d77678a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "runs ~9.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 433.736533,
+      "pnlFirstHalfUsd": 43.328523000000004,
+      "pnlSecondHalfUsd": 390.40801,
+      "closes": 6,
+      "wins": 6,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.41962238859874873,
+      "eventsPerDay": 5.6772740073218815,
+      "medianHoldMin": 3393.8333333333335,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "ETH"
+      ],
+      "maxNotionalUsd": 9098.013730507502,
+      "estLeverage": 9.098013730507502,
+      "lastActive": 1792301121
+    },
+    {
+      "account": "0xe762ec0885130f3ab5b684e5725c53a779ab4b6b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~21.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 433.4714599999999,
+      "pnlFirstHalfUsd": 308.54965,
+      "pnlSecondHalfUsd": 124.92180999999977,
+      "closes": 15,
+      "wins": 11,
+      "winRate": 0.7333333333333333,
+      "profitFactor": 1.46437753570444,
+      "biggestWinShare": 0.27817717393064095,
+      "eventsPerDay": 12.186882898001404,
+      "medianHoldMin": 537.3333333333334,
+      "markets": [
+        "NEAR",
+        "XRP"
+      ],
+      "maxNotionalUsd": 21065.077512397882,
+      "estLeverage": 21.06507751239788,
+      "lastActive": 1792366372
+    },
+    {
+      "account": "0x43b522bead86aa3ea4cab474af2ad25b199cac3f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 1.0 min is too fast to copy with a few seconds of lag",
+        "runs ~22.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 429.328007,
+      "pnlFirstHalfUsd": 233.19402900000003,
+      "pnlSecondHalfUsd": 196.13397800000004,
+      "closes": 22,
+      "wins": 10,
+      "winRate": 0.45454545454545453,
+      "profitFactor": 42.027570582790496,
+      "biggestWinShare": 0.46352016076858626,
+      "eventsPerDay": 14.35106684845423,
+      "medianHoldMin": 0.9916666666666667,
+      "markets": [
+        "SOL",
+        "BTC",
+        "WLD",
+        "SUI",
+        "DOGE",
+        "ETH",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 22893.313378732408,
+      "estLeverage": 22.893313378732408,
+      "lastActive": 1792392872
+    },
+    {
+      "account": "0xf54af43e32be860f047f267c6a50d0ac5dafd3ef",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.3 min is too fast to copy with a few seconds of lag",
+        "runs ~27.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 427.07876299999987,
+      "pnlFirstHalfUsd": 214.130369,
+      "pnlSecondHalfUsd": 212.94839400000012,
+      "closes": 42,
+      "wins": 28,
+      "winRate": 0.6666666666666666,
+      "profitFactor": 18.37972651552972,
+      "biggestWinShare": 0.49447641620996075,
+      "eventsPerDay": 19.70169674229625,
+      "medianHoldMin": 0.25,
+      "markets": [
+        "ETH",
+        "SOL",
+        "BTC",
+        "SUI",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 27019.603404257818,
+      "estLeverage": 27.01960340425782,
+      "lastActive": 1792393372
+    },
+    {
+      "account": "0xe0c2cfe0b77f849ebf5c633cdb89a6f9422b443c",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (490 / -64)",
+        "runs ~16.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 426.38322000000005,
+      "pnlFirstHalfUsd": 490.42769999999996,
+      "pnlSecondHalfUsd": -64.04447999999996,
+      "closes": 23,
+      "wins": 15,
+      "winRate": 0.6521739130434783,
+      "profitFactor": 1.480244850714338,
+      "biggestWinShare": 0.2309004285175023,
+      "eventsPerDay": 19.233206048048768,
+      "medianHoldMin": 417.43333333333334,
+      "markets": [
+        "SOL",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 16752.183743977435,
+      "estLeverage": 16.752183743977437,
+      "lastActive": 1792394918
+    },
+    {
+      "account": "0xe44bbbe808585178ab70fe63c5f78a29cb53f56b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-46 / 458)",
+        "runs ~11.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 412.1827199999999,
+      "pnlFirstHalfUsd": -45.91272,
+      "pnlSecondHalfUsd": 458.0954399999998,
+      "closes": 27,
+      "wins": 16,
+      "winRate": 0.5925925925925926,
+      "profitFactor": 1.6480047009193801,
+      "biggestWinShare": 0.1756570420977428,
+      "eventsPerDay": 20.094552650941722,
+      "medianHoldMin": 439.34999999999997,
+      "markets": [
+        "ADA",
+        "XRP",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 11467.178858183155,
+      "estLeverage": 11.467178858183155,
+      "lastActive": 1792395443
+    },
+    {
+      "account": "0xc1da1f512528b0b77c5ff199904951b7b9dcf5b1",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~22.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 411.9702510000001,
+      "pnlFirstHalfUsd": 142.263616,
+      "pnlSecondHalfUsd": 269.70663499999995,
+      "closes": 15,
+      "wins": 14,
+      "winRate": 0.9333333333333333,
+      "profitFactor": 3665.889698425408,
+      "biggestWinShare": 0.3743532902492104,
+      "eventsPerDay": 11.503511633325568,
+      "medianHoldMin": 2869.758333333333,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "HYPE",
+        "SOL",
+        "BNB",
+        "ETH"
+      ],
+      "maxNotionalUsd": 22376.840807432647,
+      "estLeverage": 22.376840807432647,
+      "lastActive": 1792392285
+    },
+    {
+      "account": "0x68f8f6227b18b44f0cd2d48b3051e36380e483ed",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~27.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 411.25561099999993,
+      "pnlFirstHalfUsd": 276.10184200000003,
+      "pnlSecondHalfUsd": 135.15376899999995,
+      "closes": 49,
+      "wins": 19,
+      "winRate": 0.3877551020408163,
+      "profitFactor": 1.6409078777803587,
+      "biggestWinShare": 0.22523273674772207,
+      "eventsPerDay": 29.79183154742162,
+      "medianHoldMin": 186.35,
+      "markets": [
+        "ETH",
+        "XRP",
+        "NEAR",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 27293.798111108637,
+      "estLeverage": 27.293798111108636,
+      "lastActive": 1792386694
+    },
+    {
+      "account": "0xf67ef0507c1f09ee0da1108ac65277c04b3480cc",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~14.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 407.743965,
+      "pnlFirstHalfUsd": 180.33414,
+      "pnlSecondHalfUsd": 227.40982500000004,
+      "closes": 30,
+      "wins": 12,
+      "winRate": 0.4,
+      "profitFactor": 4.897090523436368,
+      "biggestWinShare": 0.5813125170830553,
+      "eventsPerDay": 16.428704865095675,
+      "medianHoldMin": 141.81666666666666,
+      "markets": [
+        "NEAR",
+        "ZEC",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 13966.914420420544,
+      "estLeverage": 13.966914420420544,
+      "lastActive": 1792395135
+    },
+    {
+      "account": "0x095df868de3603ba9afcad55caa71856013682c5",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~8.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 405.760178,
+      "pnlFirstHalfUsd": 234.27684499999995,
+      "pnlSecondHalfUsd": 171.48333300000002,
+      "closes": 52,
+      "wins": 32,
+      "winRate": 0.6153846153846154,
+      "profitFactor": 7.494435172933787,
+      "biggestWinShare": 0.17635037167292014,
+      "eventsPerDay": 29.867163831274762,
+      "medianHoldMin": 34.86666666666667,
+      "markets": [
+        "SOL",
+        "ETH",
+        "BTC",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 8343.717024238349,
+      "estLeverage": 8.34371702423835,
+      "lastActive": 1792334075
+    },
+    {
+      "account": "0x5e3d1d3d21925f73e55094aae141677a7ec24cf8",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.8 min is too fast to copy with a few seconds of lag",
+        "runs ~8.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 404.978754,
+      "pnlFirstHalfUsd": 236.64989,
+      "pnlSecondHalfUsd": 168.32886400000004,
+      "closes": 22,
+      "wins": 18,
+      "winRate": 0.8181818181818182,
+      "profitFactor": 418.783397345234,
+      "biggestWinShare": 0.17218192588335474,
+      "eventsPerDay": 12.451755773489403,
+      "medianHoldMin": 0.75,
+      "markets": [
+        "HYPE",
+        "NEAR",
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 8702.995017557056,
+      "estLeverage": 8.702995017557056,
+      "lastActive": 1792390644
+    },
+    {
+      "account": "0x8d0e5b5cca4b1621617aef371e23dc34e8dd7c5f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)",
+        "runs ~18.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 400.672432,
+      "pnlFirstHalfUsd": 201.23466200000001,
+      "pnlSecondHalfUsd": 199.43777,
+      "closes": 7,
+      "wins": 7,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.28724909512079055,
+      "eventsPerDay": 11.626968106580541,
+      "medianHoldMin": 1335.8166666666666,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "SOL",
+        "ETH"
+      ],
+      "maxNotionalUsd": 18060.10103351174,
+      "estLeverage": 18.06010103351174,
+      "lastActive": 1792297456
+    },
+    {
+      "account": "0x81a1dab31fcf7d0bd8cb021e0cc164043b167093",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)",
+        "not positive in both halves of the window (396 / 0)",
+        "median hold 0.5 min is too fast to copy with a few seconds of lag",
+        "runs ~12.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 395.71000899999996,
+      "pnlFirstHalfUsd": 395.71000899999996,
+      "pnlSecondHalfUsd": 0,
+      "closes": 6,
+      "wins": 4,
+      "winRate": 0.6666666666666666,
+      "profitFactor": 5151.462176233243,
+      "biggestWinShare": 0.5015042023668705,
+      "eventsPerDay": 7.813686975017907,
+      "medianHoldMin": 0.5333333333333333,
+      "markets": [
+        "ETH",
+        "NEAR",
+        "BTC",
+        "SUI",
+        "WLD",
+        "HYPE",
+        "BNB"
+      ],
+      "maxNotionalUsd": 11963.445649264113,
+      "estLeverage": 11.963445649264113,
+      "lastActive": 1792391706
+    },
+    {
+      "account": "0x45ea7ae7ae426084feadd3a1011e5d95141f9cf5",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-84 / 467)",
+        "runs ~14.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 383.03283999999996,
+      "pnlFirstHalfUsd": -84.17399999999999,
+      "pnlSecondHalfUsd": 467.20683999999994,
+      "closes": 22,
+      "wins": 13,
+      "winRate": 0.5909090909090909,
+      "profitFactor": 1.4179749160166149,
+      "biggestWinShare": 0.22836245565675392,
+      "eventsPerDay": 15.315858909195038,
+      "medianHoldMin": 383.18333333333334,
+      "markets": [
+        "XLM",
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 14679.466550330311,
+      "estLeverage": 14.67946655033031,
+      "lastActive": 1792373842
+    },
+    {
+      "account": "0x7fc05fc3e55ae136a154eee2643203e2f0711232",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 5 closes (need 8)",
+        "runs ~15.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 376.016994,
+      "pnlFirstHalfUsd": 110.019034,
+      "pnlSecondHalfUsd": 265.99796,
+      "closes": 5,
+      "wins": 5,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.3986966344398785,
+      "eventsPerDay": 5.096574632891045,
+      "medianHoldMin": 1422.05,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "ETH",
+        "SOL",
+        "XLM",
+        "WLD"
+      ],
+      "maxNotionalUsd": 15127.992459469611,
+      "estLeverage": 15.127992459469612,
+      "lastActive": 1792392048
+    },
+    {
+      "account": "0x434e05ecbe77fb5052a2ce6360e364bbd9e661ab",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~11.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 373.2538110000001,
+      "pnlFirstHalfUsd": 351.51970600000004,
+      "pnlSecondHalfUsd": 21.734105,
+      "closes": 20,
+      "wins": 11,
+      "winRate": 0.55,
+      "profitFactor": 90.98764439464068,
+      "biggestWinShare": 0.5913671361978298,
+      "eventsPerDay": 11.59971407111211,
+      "medianHoldMin": 1563.4833333333333,
+      "markets": [
+        "NEAR",
+        "BTC",
+        "ETH",
+        "SOL",
+        "WLD"
+      ],
+      "maxNotionalUsd": 11183.886761967504,
+      "estLeverage": 11.183886761967504,
+      "lastActive": 1792391902
+    },
+    {
+      "account": "0x995f6a8478aa419444c1b49408be0e08ccabc64a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~17.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 367.570926,
+      "pnlFirstHalfUsd": 78.416516,
+      "pnlSecondHalfUsd": 289.15441,
+      "closes": 9,
+      "wins": 9,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.31963336408979065,
+      "eventsPerDay": 6.639620629700903,
+      "medianHoldMin": 3499.108333333333,
+      "markets": [
+        "SOL",
+        "XRP",
+        "ADA",
+        "TAO",
+        "BTC",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 17349.412188956943,
+      "estLeverage": 17.349412188956943,
+      "lastActive": 1792395260
+    },
+    {
+      "account": "0x88be82558b711d77098f041f93fadf61aca17196",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~8.7x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 363.046252,
+      "pnlFirstHalfUsd": 84.407181,
+      "pnlSecondHalfUsd": 278.639071,
+      "closes": 17,
+      "wins": 12,
+      "winRate": 0.7058823529411765,
+      "profitFactor": 2.4212176531359137,
+      "biggestWinShare": 0.24475015569280445,
+      "eventsPerDay": 8.4785565880036,
+      "medianHoldMin": 243.36666666666667,
+      "markets": [
+        "ZEC",
+        "WLD",
+        "DOGE",
+        "NEAR",
+        "SOL",
+        "ETH",
+        "XRP",
+        "HYPE",
+        "BNB"
+      ],
+      "maxNotionalUsd": 8731.708515398119,
+      "estLeverage": 8.731708515398118,
+      "lastActive": 1792371994
+    },
+    {
+      "account": "0x99014fe6515bae6ea1a788a1a18ba174c3f5dbe5",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.5 min is too fast to copy with a few seconds of lag",
+        "runs ~31.0x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 358.4821140000001,
+      "pnlFirstHalfUsd": 286.32238400000006,
+      "pnlSecondHalfUsd": 72.15972999999995,
+      "closes": 204,
+      "wins": 88,
+      "winRate": 0.43137254901960786,
+      "profitFactor": 6.098545567723273,
+      "biggestWinShare": 0.24740111814683316,
+      "eventsPerDay": 115.54904079365919,
+      "medianHoldMin": 0.5416666666666667,
+      "markets": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "NEAR",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 30997.285506507433,
+      "estLeverage": 30.99728550650743,
+      "lastActive": 1792346222
+    },
+    {
+      "account": "0xfb0fe1fe06500f67766c6e72d911efe82c2dc396",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~17.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 356.24806399485203,
+      "pnlFirstHalfUsd": 307.26566399485216,
+      "pnlSecondHalfUsd": 48.98239999999997,
+      "closes": 26,
+      "wins": 17,
+      "winRate": 0.6538461538461539,
+      "profitFactor": 5.028317075999516,
+      "biggestWinShare": 0.2723817976330739,
+      "eventsPerDay": 11.488046212202356,
+      "medianHoldMin": 51.724999999999994,
+      "markets": [
+        "XLM"
+      ],
+      "maxNotionalUsd": 17124.288104317133,
+      "estLeverage": 17.124288104317134,
+      "lastActive": 1792346713
+    },
+    {
+      "account": "0x2c00578ea3236290b21b479a974b80e1f7028eba",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~9.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 351.66365600000023,
+      "pnlFirstHalfUsd": 186.198443,
+      "pnlSecondHalfUsd": 165.4652130000002,
+      "closes": 63,
+      "wins": 61,
+      "winRate": 0.9682539682539683,
+      "profitFactor": 429.33053921389546,
+      "biggestWinShare": 0.17663491778674978,
+      "eventsPerDay": 23.93655371304975,
+      "medianHoldMin": 1285.2666666666667,
+      "markets": [
+        "BTC",
+        "NEAR",
+        "SUI",
+        "PUMP",
+        "XRP",
+        "HYPE",
+        "XLM"
+      ],
+      "maxNotionalUsd": 9166.14867150472,
+      "estLeverage": 9.16614867150472,
+      "lastActive": 1792379621
+    },
+    {
+      "account": "0x4ff2632b7d1d2c97bac3b7c1d45167fb19917e3a",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (348 / 0)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag",
+        "runs ~28.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 348.361258,
+      "pnlFirstHalfUsd": 348.361258,
+      "pnlSecondHalfUsd": 0,
+      "closes": 10,
+      "wins": 10,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.31989707075865476,
+      "eventsPerDay": 5.76212755478946,
+      "medianHoldMin": 0,
+      "markets": [
+        "BTC"
+      ],
+      "maxNotionalUsd": 28233.12784683623,
+      "estLeverage": 28.23312784683623,
+      "lastActive": 1792273095
+    },
+    {
+      "account": "0x2f0155b51105446024799a3ebea2b1a0f73448bf",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.5 min is too fast to copy with a few seconds of lag",
+        "runs ~33.8x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 348.04839574651083,
+      "pnlFirstHalfUsd": 162.384387,
+      "pnlSecondHalfUsd": 185.6640087465109,
+      "closes": 32,
+      "wins": 23,
+      "winRate": 0.71875,
+      "profitFactor": 7.67692344570339,
+      "biggestWinShare": 0.46498250920437645,
+      "eventsPerDay": 17.980209283531668,
+      "medianHoldMin": 0.5,
+      "markets": [
+        "SOL",
+        "ETH",
+        "BTC",
+        "BNB",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 33830.940096263155,
+      "estLeverage": 33.830940096263156,
+      "lastActive": 1792392114
+    },
+    {
+      "account": "0xef94fb8b0df91c6a7fa48a75267160130cc969d0",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)",
+        "not positive in both halves of the window (0 / 347)"
+      ],
+      "realizedPnlUsd": 347.15242,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 347.15242,
+      "closes": 7,
+      "wins": 3,
+      "winRate": 0.42857142857142855,
+      "profitFactor": 7664.408830022076,
+      "biggestWinShare": 0.41921306395675645,
+      "eventsPerDay": 12.868345211232993,
+      "medianHoldMin": 441.1333333333333,
+      "markets": [
+        "ADA",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 4717.225246722712,
+      "estLeverage": 4.717225246722712,
+      "lastActive": 1792364650
+    },
+    {
+      "account": "0x9eace4bde5d9be72de2f04ce2019106670042b47",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 6 closes (need 8)"
+      ],
+      "realizedPnlUsd": 344.99232800000004,
+      "pnlFirstHalfUsd": 325.26024,
+      "pnlSecondHalfUsd": 19.732087999999994,
+      "closes": 6,
+      "wins": 4,
+      "winRate": 0.6666666666666666,
+      "profitFactor": 5.570945217765467,
+      "biggestWinShare": 0.39048660564346277,
+      "eventsPerDay": 3.8213884230506974,
+      "medianHoldMin": 364.45,
+      "markets": [
+        "NEAR",
+        "LIT",
+        "ZEC",
+        "WLD"
+      ],
+      "maxNotionalUsd": 4216.254103807513,
+      "estLeverage": 4.216254103807513,
+      "lastActive": 1792352000
+    },
+    {
+      "account": "0x6bbe4f41fb551152da27cc164a9521fd34389fe5",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 7 closes (need 8)"
+      ],
+      "realizedPnlUsd": 344.069745,
+      "pnlFirstHalfUsd": 207.490545,
+      "pnlSecondHalfUsd": 136.5792,
+      "closes": 7,
+      "wins": 7,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.3305293814775839,
+      "eventsPerDay": 8.532911954965186,
+      "medianHoldMin": 1348.3916666666667,
+      "markets": [
+        "ETH",
+        "NEAR",
+        "SOL",
+        "WLD",
+        "DOGE"
+      ],
+      "maxNotionalUsd": 4723.803655670084,
+      "estLeverage": 4.723803655670084,
+      "lastActive": 1792285421
+    },
+    {
+      "account": "0x434031611ae5d27c363d8b32764cf03048d9fcd6",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 1.3 min is too fast to copy with a few seconds of lag",
+        "runs ~33.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 342.15549899999996,
+      "pnlFirstHalfUsd": 207.818538,
+      "pnlSecondHalfUsd": 134.33696099999997,
+      "closes": 32,
+      "wins": 16,
+      "winRate": 0.5,
+      "profitFactor": 4.001373951912104,
+      "biggestWinShare": 0.5319299955158676,
+      "eventsPerDay": 21.819238513003953,
+      "medianHoldMin": 1.2666666666666666,
+      "markets": [
+        "ETH",
+        "SOL",
+        "BTC",
+        "NEAR",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 33628.24071684997,
+      "estLeverage": 33.62824071684997,
+      "lastActive": 1792392913
+    },
+    {
+      "account": "0xe963cdd173a6d9207484e75a6c45280c78ab594e",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "only 4 closes (need 8)",
+        "not positive in both halves of the window (342 / 0)",
+        "runs ~13.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 341.93190999999996,
+      "pnlFirstHalfUsd": 341.93190999999996,
+      "pnlSecondHalfUsd": 0,
+      "closes": 4,
+      "wins": 4,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.48595413224588724,
+      "eventsPerDay": 16,
+      "medianHoldMin": 748.35,
+      "markets": [
+        "NEAR"
+      ],
+      "maxNotionalUsd": 13210.96326069404,
+      "estLeverage": 13.21096326069404,
+      "lastActive": 1792165803
+    },
+    {
+      "account": "0x6956984d42982ae0d1a24322db689d5fa5d16393",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~23.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 341.16362812605627,
+      "pnlFirstHalfUsd": 28.920610000000003,
+      "pnlSecondHalfUsd": 312.24301812605626,
+      "closes": 55,
+      "wins": 49,
+      "winRate": 0.8909090909090909,
+      "profitFactor": 11.956085217172745,
+      "biggestWinShare": 0.39617589340682824,
+      "eventsPerDay": 35.44290815859354,
+      "medianHoldMin": 6.233333333333333,
+      "markets": [
+        "VVV",
+        "BTC",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 23890.3970609595,
+      "estLeverage": 23.8903970609595,
+      "lastActive": 1792384357
+    },
+    {
+      "account": "0xb0c7cafeffd59aff48e8208feea7f302865dea38",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-781 / 1122)",
+        "runs ~22.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 340.82898000000006,
+      "pnlFirstHalfUsd": -781.0367,
+      "pnlSecondHalfUsd": 1121.86568,
+      "closes": 17,
+      "wins": 12,
+      "winRate": 0.7058823529411765,
+      "profitFactor": 1.436380236677739,
+      "biggestWinShare": 0.2564165443421076,
+      "eventsPerDay": 13.435388841854277,
+      "medianHoldMin": 1026.0666666666666,
+      "markets": [
+        "SOL",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 22598.799135142777,
+      "estLeverage": 22.598799135142777,
+      "lastActive": 1792366159
+    },
+    {
+      "account": "0xd71ed28806b9b982eac36de11fe941ecbeb3ff50",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.3 min is too fast to copy with a few seconds of lag",
+        "runs ~26.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 338.834311,
+      "pnlFirstHalfUsd": 181.47841799999995,
+      "pnlSecondHalfUsd": 157.35589299999995,
+      "closes": 66,
+      "wins": 19,
+      "winRate": 0.2878787878787879,
+      "profitFactor": 12.190328644637692,
+      "biggestWinShare": 0.48696675622457075,
+      "eventsPerDay": 31.585155142623613,
+      "medianHoldMin": 0.26666666666666666,
+      "markets": [
+        "BTC",
+        "SOL",
+        "NEAR",
+        "XRP",
+        "ETH",
+        "BNB",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 26868.65046724154,
+      "estLeverage": 26.86865046724154,
+      "lastActive": 1792393908
+    },
+    {
+      "account": "0x5f386e4b0f54edb8e5409d09983c196c2af7126b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~10.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 337.4628334807739,
+      "pnlFirstHalfUsd": 111.808092,
+      "pnlSecondHalfUsd": 225.654741480774,
+      "closes": 21,
+      "wins": 19,
+      "winRate": 0.9047619047619048,
+      "profitFactor": 13.959252907254287,
+      "biggestWinShare": 0.4269548398884228,
+      "eventsPerDay": 13.613877712551941,
+      "medianHoldMin": 1003.375,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "BTC",
+        "DOGE",
+        "ETH"
+      ],
+      "maxNotionalUsd": 10497.18459277108,
+      "estLeverage": 10.497184592771081,
+      "lastActive": 1792365282
+    },
+    {
+      "account": "0xfaabde609868c6ad4092cb2768f85cced0e811cd",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 1.1 min is too fast to copy with a few seconds of lag",
+        "runs ~23.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 333.47068299999995,
+      "pnlFirstHalfUsd": 175.434999,
+      "pnlSecondHalfUsd": 158.035684,
+      "closes": 23,
+      "wins": 12,
+      "winRate": 0.5217391304347826,
+      "profitFactor": 45.729752608637796,
+      "biggestWinShare": 0.27815768713270156,
+      "eventsPerDay": 14.066250766390361,
+      "medianHoldMin": 1.1333333333333333,
+      "markets": [
+        "ETH",
+        "BTC",
+        "NEAR",
+        "HYPE",
+        "BNB",
+        "XRP",
+        "SOL"
+      ],
+      "maxNotionalUsd": 23573.695457168087,
+      "estLeverage": 23.573695457168085,
+      "lastActive": 1792392519
+    },
+    {
+      "account": "0x8ea9a1d6676814fd18efa7748deaf8ff422230e9",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.3 min is too fast to copy with a few seconds of lag",
+        "runs ~20.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 331.737873,
+      "pnlFirstHalfUsd": 189.77248799999998,
+      "pnlSecondHalfUsd": 141.965385,
+      "closes": 33,
+      "wins": 15,
+      "winRate": 0.45454545454545453,
+      "profitFactor": 12.011533837431621,
+      "biggestWinShare": 0.466322614832993,
+      "eventsPerDay": 18.211390298458163,
+      "medianHoldMin": 0.3333333333333333,
+      "markets": [
+        "ETH",
+        "BTC",
+        "SOL",
+        "BNB",
+        "DOGE",
+        "NEAR",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 20206.78864458768,
+      "estLeverage": 20.20678864458768,
+      "lastActive": 1792394565
+    },
+    {
+      "account": "0x5b75ee9523f7508d6251474446bf60dd2404cbc3",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (331 / 0)",
+        "median hold 0.0 min is too fast to copy with a few seconds of lag"
+      ],
+      "realizedPnlUsd": 330.95305699999994,
+      "pnlFirstHalfUsd": 330.95305699999994,
+      "pnlSecondHalfUsd": 0,
+      "closes": 13,
+      "wins": 13,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.22008583531530884,
+      "eventsPerDay": 22.146382903929812,
+      "medianHoldMin": 0,
+      "markets": [
+        "WLD",
+        "SUI",
+        "NEAR",
+        "BNB",
+        "SOL",
+        "ETH",
+        "AVAX",
+        "BTC",
+        "HYPE",
+        "XRP",
+        "DOGE",
+        "XLM"
+      ],
+      "maxNotionalUsd": 2023.3426143507882,
+      "estLeverage": 2.023342614350788,
+      "lastActive": 1792212852
+    },
+    {
+      "account": "0x331f1e802df6e01c70b45743873cf4a372aae537",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~30.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 330.528905,
+      "pnlFirstHalfUsd": 175.66917399999997,
+      "pnlSecondHalfUsd": 154.859731,
+      "closes": 34,
+      "wins": 27,
+      "winRate": 0.7941176470588235,
+      "profitFactor": 1.746294169613252,
+      "biggestWinShare": 0.4033475578729957,
+      "eventsPerDay": 20.729506700999575,
+      "medianHoldMin": 488.35833333333335,
+      "markets": [
+        "BTC",
+        "ETH",
+        "HYPE",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 30927.60151700445,
+      "estLeverage": 30.927601517004447,
+      "lastActive": 1792377850
+    },
+    {
+      "account": "0x034ae6f91a5ca53367693a202f678557635db46f",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-192 / 521)",
+        "runs ~17.9x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 329.3414529999999,
+      "pnlFirstHalfUsd": -191.76690000000002,
+      "pnlSecondHalfUsd": 521.108353,
+      "closes": 107,
+      "wins": 76,
+      "winRate": 0.7102803738317757,
+      "profitFactor": 2.105845540582816,
+      "biggestWinShare": 0.2831334331360528,
+      "eventsPerDay": 68.29563155325135,
+      "medianHoldMin": 7.183333333333334,
+      "markets": [
+        "SOL",
+        "SUI",
+        "NEAR",
+        "ETH",
+        "BTC"
+      ],
+      "maxNotionalUsd": 17910.47510089037,
+      "estLeverage": 17.91047510089037,
+      "lastActive": 1792377498
+    },
+    {
+      "account": "0xc6467c8e05a5462a5e9597a3e379bddf9fba6254",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (310 / 0)",
+        "runs ~9.2x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 309.86417200000005,
+      "pnlFirstHalfUsd": 309.86417200000005,
+      "pnlSecondHalfUsd": 0,
+      "closes": 8,
+      "wins": 8,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.36029779608624163,
+      "eventsPerDay": 14,
+      "medianHoldMin": 1012.55,
+      "markets": [
+        "ETH",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 9177.014865016827,
+      "estLeverage": 9.177014865016826,
+      "lastActive": 1792137481
+    },
+    {
+      "account": "0x600af1eff2848dfe3af110481ff3d2222646a6e8",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (577 / -270)",
+        "runs ~29.4x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 307.3896610000001,
+      "pnlFirstHalfUsd": 577.2106880000001,
+      "pnlSecondHalfUsd": -269.82102699999984,
+      "closes": 41,
+      "wins": 18,
+      "winRate": 0.43902439024390244,
+      "profitFactor": 1.9280831221616586,
+      "biggestWinShare": 0.2711426432831378,
+      "eventsPerDay": 30.517310803269307,
+      "medianHoldMin": 1334.2333333333333,
+      "markets": [
+        "HYPE",
+        "SOL",
+        "ETH",
+        "BTC",
+        "XRP"
+      ],
+      "maxNotionalUsd": 29441.050679257645,
+      "estLeverage": 29.441050679257646,
+      "lastActive": 1792365241
+    },
+    {
+      "account": "0xbcd97476e028cf4e63a761612cd0d0996156a97b",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 303)",
+        "median hold 1.8 min is too fast to copy with a few seconds of lag",
+        "runs ~22.6x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 302.862128,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 302.862128,
+      "closes": 31,
+      "wins": 17,
+      "winRate": 0.5483870967741935,
+      "profitFactor": 20.39683528823529,
+      "biggestWinShare": 0.3056192673783632,
+      "eventsPerDay": 24.16332618625897,
+      "medianHoldMin": 1.8,
+      "markets": [
+        "NEAR",
+        "VVV",
+        "ZRO",
+        "BTC",
+        "ETH",
+        "SOL",
+        "HYPE",
+        "SUI",
+        "BNB",
+        "AVAX"
+      ],
+      "maxNotionalUsd": 22566.613302484624,
+      "estLeverage": 22.566613302484622,
+      "lastActive": 1792367428
+    },
+    {
+      "account": "0xaf58c90c4c84e24f367ffddaddad599bb151bd23",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (303 / 0)",
+        "runs ~17.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 302.5803968031078,
+      "pnlFirstHalfUsd": 302.5803968031078,
+      "pnlSecondHalfUsd": 0,
+      "closes": 20,
+      "wins": 20,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.18706176099708435,
+      "eventsPerDay": 32.06946584633381,
+      "medianHoldMin": 267,
+      "markets": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "maxNotionalUsd": 17275.481933670988,
+      "estLeverage": 17.27548193367099,
+      "lastActive": 1792174206
+    },
+    {
+      "account": "0xecfd544333910c4180a66008267b574d2f88c3b9",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "median hold 0.0 min is too fast to copy with a few seconds of lag"
+      ],
+      "realizedPnlUsd": 301.4639227493386,
+      "pnlFirstHalfUsd": 301.326218,
+      "pnlSecondHalfUsd": 0.13770474933862434,
+      "closes": 9,
+      "wins": 9,
+      "winRate": 1,
+      "profitFactor": 99,
+      "biggestWinShare": 0.29538216443246146,
+      "eventsPerDay": 8.023091149682342,
+      "medianHoldMin": 0,
+      "markets": [
+        "TAO",
+        "BNB",
+        "ETH",
+        "XLM",
+        "BTC"
+      ],
+      "maxNotionalUsd": 3314.1583627695654,
+      "estLeverage": 3.3141583627695654,
+      "lastActive": 1792218217
+    },
+    {
+      "account": "0xf681b2da976273a637b6e326aa5a4764977d14ce",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (-272 / 572)",
+        "runs ~13.3x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 299.46838399999996,
+      "pnlFirstHalfUsd": -272.4003660000001,
+      "pnlSecondHalfUsd": 571.86875,
+      "closes": 23,
+      "wins": 13,
+      "winRate": 0.5652173913043478,
+      "profitFactor": 1.3820679156629956,
+      "biggestWinShare": 0.23255065467728347,
+      "eventsPerDay": 17.640707621605163,
+      "medianHoldMin": 449.6166666666667,
+      "markets": [
+        "TAO",
+        "NEAR",
+        "XRP",
+        "HYPE"
+      ],
+      "maxNotionalUsd": 13278.837822313852,
+      "estLeverage": 13.278837822313852,
+      "lastActive": 1792366301
+    },
+    {
+      "account": "0x907d07fe2e1acf49e832003e097c63d8755fafc5",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "runs ~7.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 299.30485899999996,
+      "pnlFirstHalfUsd": 127.82778000000002,
+      "pnlSecondHalfUsd": 171.47707899999997,
+      "closes": 36,
+      "wins": 8,
+      "winRate": 0.2222222222222222,
+      "profitFactor": 2.962489248236905,
+      "biggestWinShare": 0.2694709756943306,
+      "eventsPerDay": 21.865187321228184,
+      "medianHoldMin": 260.85,
+      "markets": [
+        "NEAR",
+        "ADA",
+        "BTC",
+        "ETH"
+      ],
+      "maxNotionalUsd": 7085.30790362383,
+      "estLeverage": 7.085307903623829,
+      "lastActive": 1792395260
+    },
+    {
+      "account": "0x8bdeb4cb2085cc37abef8eeea0f3af34f47a7a8d",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 298)",
+        "runs ~17.1x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 297.82889,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 297.82889,
+      "closes": 10,
+      "wins": 7,
+      "winRate": 0.7,
+      "profitFactor": 4.802562842171923,
+      "biggestWinShare": 0.41082642340217346,
+      "eventsPerDay": 8.186788992871119,
+      "medianHoldMin": 1494.7666666666667,
+      "markets": [
+        "ADA",
+        "NEAR"
+      ],
+      "maxNotionalUsd": 17133.719119157297,
+      "estLeverage": 17.133719119157295,
+      "lastActive": 1792292705
+    },
+    {
+      "account": "0xce36ab17be46ad9da9d7b5eed7893de13a9eea27",
+      "score": 0,
+      "eligible": false,
+      "reasons": [
+        "not positive in both halves of the window (0 / 294)",
+        "runs ~10.5x on 1000 USDso, above the 6x we copy"
+      ],
+      "realizedPnlUsd": 294.48050000000006,
+      "pnlFirstHalfUsd": 0,
+      "pnlSecondHalfUsd": 294.48050000000006,
+      "closes": 9,
+      "wins": 5,
+      "winRate": 0.5555555555555556,
+      "profitFactor": 6.730340904889502,
+      "biggestWinShare": 0.3966487775421068,
+      "eventsPerDay": 8.734870397933108,
+      "medianHoldMin": 1483.6083333333331,
+      "markets": [
+        "SUI"
+      ],
+      "maxNotionalUsd": 10478.90308661856,
+      "estLeverage": 10.47890308661856,
+      "lastActive": 1792305155
+    }
+  ]
+}

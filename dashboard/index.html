@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>echo — copy the best perps traders on dreamDEX</title>
+<style>
+:root{--bg:#0b0d12;--panel:#12151d;--line:#1f2430;--text:#e8ecf3;--muted:#8b94a7;--green:#36d399;--red:#ff6b6b;--amber:#f5b942;--blue:#7aa2ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 ui-sans-serif,system-ui,-apple-system,Segoe UI,Inter,sans-serif}
+header{display:flex;align-items:baseline;gap:14px;padding:22px 28px 10px}header h1{margin:0;font-size:26px;letter-spacing:-.02em}header .sub{color:var(--muted)}
+.wrap{padding:0 28px 40px;max-width:1180px;margin:0 auto}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:14px 0 22px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.stat .k{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}.stat .v{font-size:22px;font-weight:600;margin-top:4px}
+.row{display:grid;grid-template-columns:1.2fr 1fr;gap:16px}@media(max-width:900px){.row{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}.panel h2{margin:0 0 10px;font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+table{width:100%;border-collapse:collapse;font-size:13.5px}td,th{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--muted);font-weight:500}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.addr{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}.why{color:var(--muted);font-size:12.5px}
+.card{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0;background:#0f1218}.card .h{font-weight:600}.card .t{color:var(--muted);font-size:12px;margin-left:8px}
+.tag{display:inline-block;font-size:11px;padding:2px 7px;border-radius:999px;margin-right:8px;text-transform:uppercase;letter-spacing:.05em}
+.tag.mirror{background:#0f3b2c;color:var(--green)}.tag.skip{background:#2a2419;color:var(--amber)}.tag.risk{background:#3b1a1a;color:var(--red)}.tag.info{background:#1b2740;color:var(--blue)}.tag.error{background:#3b1a1a;color:var(--red)}
+.card ul{margin:6px 0 0 18px;padding:0;color:var(--muted);font-size:13px}.card .mv{margin-top:6px;font-size:13.5px}.card a{color:var(--blue);text-decoration:none;font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+svg.spark{width:100%;height:70px;display:block;margin-top:6px}.pos{color:var(--green)}.neg{color:var(--red)}
+.foot{color:var(--muted);font-size:12.5px;margin-top:26px}
+</style></head><body>
+<header><h1>echo</h1><span class="sub">copy the best perps traders on dreamDEX · Somnia Tokyo testnet · every trade explained</span></header>
+<div class="wrap">
+<div class="stats" id="stats"></div>
+<div class="row">
+  <div class="panel"><h2>Journal — what Echo did and why</h2><div id="cards"></div></div>
+  <div>
+    <div class="panel" style="margin-bottom:16px"><h2>Equity (USDso)</h2><svg class="spark" id="spark"></svg><div class="why" id="eqnote"></div></div>
+    <div class="panel"><h2>Leaders — scored from public testnet data</h2><table id="leaders"><thead><tr><th>account</th><th class="num">P&amp;L</th><th class="num">closes</th><th class="num">win</th><th class="num">PF</th><th class="num">hold</th></tr></thead><tbody></tbody></table><div class="why" id="lnote"></div></div>
+  </div>
+</div>
+<div class="foot">Echo reads every position change on the Tokyo testnet from dreamDEX's public indexer, ranks accounts with rules you can read (consistent realized P&amp;L in both halves of the window, enough closes, a profit factor above 1.3, no one-trade wonders, no market makers), and mirrors the ones you follow in your own account, scaled to your equity and bounded by your caps. Testnet only. Not financial advice.</div>
+</div>
+<script>
+const $=s=>document.querySelector(s);const fmt=(n,d=2)=>Number(n).toLocaleString('en-US',{maximumFractionDigits:d});
+const short=a=>a?a.slice(0,6)+'…'+a.slice(-4):'';
+async function j(p){const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw new Error(p+' '+r.status);return r;}
+async function load(){
+  const base=location.pathname.includes('/dashboard/')?'../data/':'data/';
+  let state={},cards=[],leaders={leaders:[]};
+  try{state=await (await j(base+'state.json')).json();}catch{}
+  try{cards=(await (await j(base+'journal.jsonl')).text()).trim().split('\n').filter(Boolean).map(l=>JSON.parse(l));}catch{}
+  try{leaders=await (await j(base+'leaders.json')).json();}catch{}
+  const mirrors=cards.filter(c=>c.kind==='mirror'&&!c.dryRun);const dry=cards.filter(c=>c.kind==='mirror'&&c.dryRun);
+  const eq=(state.equity||[]);const last=eq.length?eq[eq.length-1].equityUsd:0;const start=state.startEquityUsd||0;
+  const ret=start?((last/start-1)*100):0;
+  $('#stats').innerHTML=[['equity',fmt(last)+' USDso'],['return',(ret>=0?'+':'')+fmt(ret,2)+'%',ret>=0?'pos':'neg'],['leaders followed',(state.leaders||[]).length],['live orders',mirrors.length],['tx hashes',(state.txHashes||[]).length],['dry-run orders',dry.length]]
+    .map(([k,v,c])=>`<div class="stat"><div class="k">${k}</div><div class="v ${c||''}">${v}</div></div>`).join('');
+  // sparkline
+  if(eq.length>1){const W=600,H=70,xs=eq.map((_,i)=>i/(eq.length-1)*W),ys=eq.map(e=>e.equityUsd);const mn=Math.min(...ys),mx=Math.max(...ys);const y=v=>H-4-((v-mn)/((mx-mn)||1))*(H-8);
+    $('#spark').setAttribute('viewBox',`0 0 ${W} ${H}`);$('#spark').innerHTML=`<path d="M${xs.map((x,i)=>x.toFixed(1)+' '+y(ys[i]).toFixed(1)).join(' L')}" fill="none" stroke="${last>=start?'#36d399':'#ff6b6b'}" stroke-width="2"/>`;
+    $('#eqnote').textContent=`${eq.length} readings · low ${fmt(mn)} · high ${fmt(mx)} · peak ${fmt(state.peakEquityUsd||mx)}`;}
+  else $('#eqnote').textContent='no equity readings yet — run `echo run`';
+  // leaders
+  const L=(leaders.leaders||[]).filter(l=>l.eligible).slice(0,8);
+  $('#leaders tbody').innerHTML=L.map(l=>`<tr><td><span class="addr">${short(l.account)}</span>${(state.leaders||[]).includes(l.account)?' <span class="tag mirror">following</span>':''}<div class="why">${l.reasons[0]}</div></td><td class="num pos">+${fmt(l.realizedPnlUsd,0)}</td><td class="num">${l.closes}</td><td class="num">${fmt(l.winRate*100,0)}%</td><td class="num">${fmt(Math.min(l.profitFactor,99),1)}</td><td class="num">${fmt(l.medianHoldMin,0)}m</td></tr>`).join('')||'<tr><td colspan=6 class="why">run `echo leaders`</td></tr>';
+  if(leaders.coverage)$('#lnote').textContent=`${leaders.scored} accounts scored, ${leaders.eligible} eligible · window ${new Date(leaders.coverage.from*1000).toISOString().slice(0,16).replace('T',' ')} → ${new Date(leaders.coverage.to*1000).toISOString().slice(0,16).replace('T',' ')} UTC · ${fmt(leaders.coverage.rows,0)} position changes read`;
+  // cards
+  $('#cards').innerHTML=cards.slice(-60).reverse().map(c=>`<div class="card"><span class="tag ${c.kind}">${c.kind}</span><span class="h">${c.headline}</span><span class="t">${c.t.replace('T',' ').slice(0,19)} UTC</span>
+    ${c.leaderMove?`<div class="mv"><b>they:</b> ${c.leaderMove}</div>`:''}${c.ourMove?`<div class="mv"><b>we:</b> ${c.ourMove}</div>`:''}
+    ${c.why&&c.why.length?`<ul>${c.why.map(w=>`<li>${w}</li>`).join('')}</ul>`:''}${c.txHash?`<div class="mv">tx <a href="${c.explorer||'#'}" target="_blank" rel="noopener">${c.txHash}</a></div>`:''}</div>`).join('')||'<div class="why">no cards yet</div>';
+}
+load();setInterval(load,10000);
+</script></body></html>

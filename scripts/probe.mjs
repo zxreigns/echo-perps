@@ -1,0 +1,15 @@
+import { SOMNIA_HIDEKI_TESTNET_ADDRESSES, SomniaMarkets } from "@somnia-chain/markets-sdk";
+import { hidekiTestnet } from "@somnia-chain/markets-sdk/chains";
+import fs from "node:fs";
+const addr = fs.readFileSync("/home/user/tab/files/dreamdex/.secrets/bot.address","utf8").trim();
+const markets = new SomniaMarkets({ chain: hidekiTestnet, indexerUrl: "https://hideki-dev.smk.somnia.host/v1/graphql", addresses: SOMNIA_HIDEKI_TESTNET_ADDRESSES });
+const perps = await markets.client.listPerpMarkets();
+console.log("markets", perps.length);
+for (const m of perps.slice(0,3)) console.log(JSON.stringify(m, (k,v)=> typeof v==="bigint"? v.toString(): v).slice(0,900));
+const btc = perps.find(m=>m.baseSymbol==="BTC");
+const cfg = await markets.client.getPerpSystemConfig(btc.marginBank); console.log("sysconfig", JSON.stringify(cfg,(k,v)=> typeof v==="bigint"? v.toString(): v));
+const el = await markets.client.getPerpVoucherEligibility(btc.marginBank, addr); console.log("eligibility", JSON.stringify(el,(k,v)=> typeof v==="bigint"? v.toString(): v));
+const camp = await markets.client.getPerpVoucherCampaign?.(btc.marginBank).catch(e=>String(e)); console.log("campaign", JSON.stringify(camp,(k,v)=> typeof v==="bigint"? v.toString(): v)?.slice(0,800));
+const bal = await markets.client.getNativeBalance(addr); console.log("STT", bal.toString());
+const eq = await markets.client.listAccountEquities?.({ marginBank: btc.marginBank, limit: 5 }).catch(e=>"ERR "+String(e).slice(0,300)); console.log("equities", JSON.stringify(eq,(k,v)=> typeof v==="bigint"? v.toString(): v)?.slice(0,1200));
+process.exit(0);

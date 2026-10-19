@@ -1,0 +1,35 @@
+{
+  "name": "echo-perps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Echo: copy the best perps traders on dreamDEX, with your own risk budget and every trade explained.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "leaders": "tsx src/cli.ts leaders",
+    "run": "tsx src/cli.ts run",
+    "status": "tsx src/cli.ts status",
+    "dashboard": "node dashboard/serve.mjs",
+    "replay": "tsx src/cli.ts replay",
+    "follow": "tsx src/cli.ts follow",
+    "claim": "tsx src/cli.ts claim",
+    "flatten": "tsx src/cli.ts flatten",
+    "dashboard:export": "node scripts/export-dashboard.mjs",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  },
+  "bin": {
+    "echo": "src/cli.ts"
+  }
+}
