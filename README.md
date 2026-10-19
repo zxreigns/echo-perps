@@ -25,20 +25,22 @@ Built for the [dreamDEX Perps Builder Bounty](https://dorahacks.io/hackathon/dre
 
 ## Run it
 
+Echo trades **for your dreamDEX account with a key of its own** (the app's *Link a bot*): open your wallet in the app → *Link a bot* → paste the bot key's address, keep *Perps* ticked, leave *Send it … for gas* on → *Add bot*. The link is an operator grant on every perp pool for `placeOrderFor` / `cancelOrderFor` / `reduceOrderFor`; margin locks from your account, fills settle to your account, and the key can never withdraw or send. Put that account in `OWNER_ADDRESS`. (Leave it blank to trade the key's own MarginBank account instead — on testnet the self-claim of the 1,000 USDso credit is disabled now, so the linked mode is the one that works.)
+
 ```bash
 git clone https://github.com/zxreigns/echo-perps && cd echo-perps
 npm install
-cp .env.example .env            # add PRIVATE_KEY (a fresh key just for the bot)
+cp .env.example .env            # add PRIVATE_KEY (a fresh key just for the bot) and OWNER_ADDRESS (your dreamDEX account)
 
 npx tsx src/cli.ts leaders      # score the testnet (≈1–2 min), writes data/leaders.json
 npx tsx src/cli.ts follow       # follow the top FOLLOW_TOP eligible leaders
 npx tsx src/cli.ts replay 24    # dry-run the last 24h of their moves
-npx tsx src/cli.ts claim        # one-time 1,000 paper-USDso credit for this key (needs a little STT for gas)
+npx tsx src/cli.ts status       # equity, positions, and whether the key is linked on each market
 DRY_RUN=false npx tsx src/cli.ts run   # live on Tokyo testnet
 npm run dashboard               # http://localhost:4317
 ```
 
-Gas: the bot key needs a little **STT** on the Tokyo testnet (orders cost ~0.001 STT). There is no public faucet for this chain; ask in the [dreamDEX Discord](https://discord.gg/dreamdex) or top it up from an app wallet (*Link a bot → Send it STT*).
+Gas: the bot key needs a little **STT** on the Tokyo testnet (an order measured ~0.02 STT of gas, so 5 STT is a few hundred orders). There is no public faucet for this chain; ask in the [dreamDEX Discord](https://discord.gg/dreamdex) or top it up from an app wallet (*Link a bot → Send it STT*).
 
 ## Architecture
 
@@ -51,6 +53,7 @@ src/
   mirror.ts    the engine: proportional copy, caps, risk gate, live mark (getPerpHealthSnapshot),
                pool sizing (getMaxPerpOrderSize), IOC orders (trader.placePerpOrder, ORDER_TYPE.MARKET)
   journal.ts   trade cards (jsonl) + state (mirrored sub-positions, cursor, equity, tx hashes)
+  tradingKey.ts placeOrderFor / link checks for the linked-key mode (viem; the SDK has no perp …For writes)
   cli.ts       leaders | follow | unfollow | replay | claim | run | status | flatten
 dashboard/     static dashboard reading data/ (serve.mjs), exportable with scripts/export-dashboard.mjs
 ```
@@ -61,14 +64,21 @@ Network: Somnia Tokyo testnet = Hideki, chain 50383. RPC `https://api.hideki2.in
 
 ## Evidence of building (Tokyo testnet)
 
-Bot account: `0xAfE18B28752DBA89674Fd84D22Ffcb2CAE089E16`
+Account traded: Perps Arena wallet `0x8D2a3f94bd13464D6427a4Db8CB70B10d0D8C3aB` (1,000 paper USDso), through the linked **trading key** `0xAfE18B28752DBA89674Fd84D22Ffcb2CAE089E16` (Echo's own key; it signs `placeOrderFor`, pays gas, and cannot withdraw).
 
 | when (UTC) | what | tx |
 |---|---|---|
-| _pending gas_ | claim 1,000 paper USDso | _to be added_ |
-| _pending gas_ | first mirrored order | _to be added_ |
+| 2026-10-19 18:26 | Link a bot (app, Wallet 1 → Perps, every market) + 5 STT gas to the bot key | [`0x1ac24267…8fbf`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x1ac242673165fc5a9b180fbaef37ead588824c52775b4178744cdaab4cef8fbf) |
+| 2026-10-19 18:30 | mirror 0x9ca8…210c: short 17,900 PUMP at ~0 (PUMP-PERP, IOC) | [`0x6154640d…8d69`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x6154640d0c870ab3cec2d688838279e569ead75aa183a6d14db4887aef9f8d69) |
+| 2026-10-19 18:30 | mirror 0x9ca8…210c: short 3.12 VVV at ~23.94 (VVV-PERP, IOC) | [`0x92d0c99b…21d4`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x92d0c99b7101cef208e4a5bf51df7e56d015ab0bac02ca7eae87cc2c5a6f21d4) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: short 83.1 NEAR at ~4.91 (NEAR-PERP, IOC) | [`0x171ccef4…e800`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x171ccef414f3950df9a70fb0d99f825f855a7e4b6a8879b2f5c1669852f4e800) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: long 38.5 NEAR at ~4.91 (NEAR-PERP, IOC) | [`0xd799c7af…15f3`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0xd799c7afb97c5471d326bceb6da1e3cd32a04ac4a160940fd2db7d322c0915f3) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: long 43.6 NEAR at ~4.91 (NEAR-PERP, IOC) | [`0x92d11ec4…6082`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x92d11ec4b768962ab677ceb66494e1b446f10950b9c35618fa174db745cc6082) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: short 21,200 PUMP at ~0 (PUMP-PERP, IOC) | [`0x3ec77dc5…07d2`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0x3ec77dc53d095ec909b1d87f6ff4b25c055e313c42a23f76cab74caecea907d2) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: short 5,100 PUMP at ~0 (PUMP-PERP, IOC) | [`0xbafa79db…1c15`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0xbafa79db212ac205aae756a63b2caf42b68dc126f2110a3284d3df91453c1c15) |
+| 2026-10-19 18:31 | mirror 0x9ca8…210c: long 3.45 HYPE at ~77.82 (HYPE-PERP, IOC) | [`0xe17b67af…fe9c`](https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app/tx/0xe17b67af4832c990072d1c8259645572eb1ab0774ef3ae5b920b7bb432c8fe9c) |
 
-The full list lives in `data/state.json` → `txHashes`, and each card in `data/journal.jsonl` carries its hash and explorer link.
+Echo went live at 18:30:58 UTC on Oct 19 2026 and mirrored 8 moves by leader `0x9ca8…210c` in its first 30 seconds (short PUMP, VVV, NEAR; long HYPE), equity 999.14 USDso after fills. Two earlier `claim` attempts from the bot key reverted with `SelfClaimDisabled()` — the testnet VoucherDistributor no longer lets an address self-claim; the credit now comes with a Perps Arena wallet, which is why the trading-key mode exists. The full list lives in `data/state.json` → `txHashes`, and each card in `data/journal.jsonl` carries its hash and explorer link.
 
 ## X posts
 

@@ -14,6 +14,7 @@ import { Indexer } from "./indexer.js";
 import { scoreLeaders, DEFAULT_RULES } from "./leaders.js";
 import { Journal, type EchoState } from "./journal.js";
 import { Mirror } from "./mirror.js";
+import { createTradingKey, linkStatus } from "./tradingKey.js";
 
 const cfg = loadConfig();
 const cmd = process.argv[2] ?? "status";
@@ -25,7 +26,10 @@ async function main() {
   const markets = await connect(cfg);
   const mk = await loadMarkets(markets);
   const ix = new Indexer(cfg.indexerUrl);
-  const account = (markets as any).walletAddress as `0x${string}` | undefined;
+  const keyAddress = (markets as any).walletAddress as `0x${string}` | undefined;
+  // Trading-key mode (OWNER_ADDRESS): reads and risk are the owner's account; writes go out as placeOrderFor signed by our key.
+  const tradingKey = cfg.owner && cfg.privateKey ? createTradingKey(cfg.owner, cfg.privateKey, cfg.rpcUrl) : undefined;
+  const account = (cfg.owner ?? keyAddress) as `0x${string}` | undefined;
 
   if (cmd === "leaders") {
     const rules = { ...DEFAULT_RULES, fundedUsd: cfg.leaderFundedUsd, windowDays: Number(process.env.WINDOW_DAYS ?? DEFAULT_RULES.windowDays) };
@@ -67,12 +71,13 @@ async function main() {
   }
 
   if (cfg.leaders.length) state.leaders = cfg.leaders;
-  const mirror = new Mirror(cfg, markets, ix, mk, j, state, account);
+  const mirror = new Mirror(cfg, markets, ix, mk, j, state, account, tradingKey);
 
   if (cmd === "status") {
     const eq = await mirror.equityUsd(); const pos = await mirror.ourPositions();
-    const stt = await markets.client.getNativeBalance(account);
-    say(`account   ${account}\nequity    ${fmt(eq)} USDso   gas ${fmt(Number(stt) / 1e18, 4)} STT   mode ${cfg.dryRun ? "DRY-RUN" : "LIVE"}`);
+    const stt = await markets.client.getNativeBalance(keyAddress ?? account);
+    say(`account   ${account}${tradingKey ? `  (trading key ${tradingKey.operator})` : ""}\nequity    ${fmt(eq)} USDso   gas ${fmt(Number(stt) / 1e18, 4)} STT   mode ${cfg.dryRun ? "DRY-RUN" : "LIVE"}`);
+    if (tradingKey) for (const m of mk.values()) { const s = await linkStatus(tradingKey, m.poolAddress); say(`link      ${m.baseSymbol.padEnd(6)} place ${s.place} cancel ${s.cancel} reduce ${s.reduce}`); }
     say(`leaders   ${state.leaders.length ? state.leaders.join(", ") : "none (run: echo follow)"}`);
     say(`positions ${pos.size ? [...pos].map(([p, s]) => `${fmt(s, 6)} ${mk.get(p)!.baseSymbol} (${fmt(s * markUsd(mk.get(p)!), 0)} USDso)`).join(", ") : "none"}`);
     say(`tx hashes ${state.txHashes.length}`);
@@ -85,7 +90,7 @@ async function main() {
     const rcfg = { ...cfg, dryRun: true, dataDir: path.join(cfg.dataDir, "replay") };
     const rj = new Journal(rcfg.dataDir); try { fs.unlinkSync(rj.journalPath); } catch {}
     const rstate: EchoState = { ...state, mirrored: {}, seenIds: [], txHashes: [], equity: [], lastCursorTs: 0, startEquityUsd: cfg.dryRunEquityUsd, peakEquityUsd: cfg.dryRunEquityUsd, dayStartEquityUsd: cfg.dryRunEquityUsd };
-    const rm = new Mirror(rcfg, markets, ix, mk, rj, rstate, account);
+    const rm = new Mirror(rcfg, markets, ix, mk, rj, rstate, account, tradingKey);
     const since = Math.floor(Date.now() / 1000) - hours * 3600;
     const rows = (await ix.changesSince(since, { accounts: state.leaders })).sort((a, b) => a.timestamp - b.timestamp || a.logIndex - b.logIndex);
     say(`replaying ${rows.length} changes by ${state.leaders.length} leaders over the last ${hours}h (dry-run, ${cfg.dryRunEquityUsd} USDso)`);
@@ -100,6 +105,7 @@ ${mirrors.length} orders would have been sent, ${skips.length} moves skipped. Jo
 
   if (cmd === "run") {
     if (!state.leaders.length) throw new Error("nobody to follow: run `echo leaders` then `echo follow`, or set LEADERS");
+    if (tradingKey) { const bad = []; for (const m of mk.values()) { const s = await linkStatus(tradingKey, m.poolAddress); if (!s.place) bad.push(m.baseSymbol); } if (bad.length === mk.size) throw new Error(`this key (${tradingKey.operator}) is not linked to ${tradingKey.owner} on any perp market: app → wallet → Link a bot → Perps`); if (bad.length) say(`not linked on ${bad.join(", ")}; those markets are skipped`); }
     const eq = await mirror.equityUsd();
     if (!state.startEquityUsd) { state.startEquityUsd = eq; state.peakEquityUsd = eq; state.dayStartEquityUsd = eq; }
     j.card({ t: new Date().toISOString(), kind: "info", headline: `Echo ${cfg.dryRun ? "dry-run" : "LIVE"} on ${account}: ${fmt(eq)} USDso equity, following ${state.leaders.length} leader(s)`, why: [`caps: ${cfg.maxLeverage}x gross, ${cfg.maxMarketNotionalPct}% per market, ${cfg.maxTradeNotionalUsd} USDso per order, daily stop ${cfg.dailyLossStopPct}%, flatten at ${cfg.drawdownFlattenPct}% drawdown`, `leaders: ${state.leaders.join(", ")}`], equityUsd: eq });

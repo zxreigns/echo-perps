@@ -4,6 +4,8 @@ import fs from "node:fs";
 
 export interface EchoConfig {
   privateKey?: `0x${string}`;
+  /** Trading-key mode: the dreamDEX account this key is linked to (app → Link a bot → Perps). Blank = trade the key's own account. */
+  owner?: `0x${string}`;
   rpcUrl: string;
   indexerUrl: string;
   explorerUrl: string;
@@ -37,6 +39,7 @@ export function loadConfig(): EchoConfig {
   const num = (k: string, d: number) => (env[k] !== undefined && env[k] !== "" ? Number(env[k]) : d);
   return {
     privateKey: pk ? (pk as `0x${string}`) : undefined,
+    owner: env.OWNER_ADDRESS?.trim() ? (env.OWNER_ADDRESS.trim() as `0x${string}`) : undefined,
     rpcUrl: env.RPC_URL ?? "https://api.hideki2.infra.testnet.somnia.network",
     indexerUrl: env.INDEXER_URL ?? "https://hideki-dev.smk.somnia.host/v1/graphql",
     explorerUrl: env.EXPLORER_URL ?? "https://smk-dev-markets-explorer-hideki-euw4-uzavbo36ra-ez.a.run.app",

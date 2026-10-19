@@ -6,6 +6,7 @@ import { ORDER_TYPE, type Market, fromBase, toBase, alignDown, markUsd, markAgeS
 import type { EchoConfig } from "./config.js";
 import { Indexer, type PositionChange } from "./indexer.js";
 import { Journal, type EchoState, type TradeCard } from "./journal.js";
+import { placeFor, type TradingKey } from "./tradingKey.js";
 
 const short = (a: string) => a.slice(0, 6) + "…" + a.slice(-4);
 const fmt = (n: number, d = 2) => n.toLocaleString("en-US", { maximumFractionDigits: d });
@@ -14,8 +15,14 @@ const nowIso = () => new Date().toISOString();
 export class Mirror {
   private seen = new Set<string>();
   private leaderEquity = new Map<string, number>();
-  constructor(private cfg: EchoConfig, private markets: SomniaMarkets, private ix: Indexer, private mk: Map<string, Market>, private j: Journal, private state: EchoState, private account: `0x${string}`) {
+  constructor(private cfg: EchoConfig, private markets: SomniaMarkets, private ix: Indexer, private mk: Map<string, Market>, private j: Journal, private state: EchoState, private account: `0x${string}`, private tradingKey?: TradingKey) {
     for (const id of state.seenIds) this.seen.add(id);
+  }
+
+  /** One market order, sent as the account itself or, in trading-key mode, as placeOrderFor(owner, …) signed by the bot key. */
+  private place(m: Market, isBid: boolean, price: bigint, quantity: bigint): Promise<any> {
+    const p = { pool: m.poolAddress, isBid, price, quantity, orderType: ORDER_TYPE.MARKET };
+    return this.tradingKey ? placeFor(this.tradingKey, p) : this.markets.trader.placePerpOrder(p);
   }
 
   explorerTx(h: string) { return `${this.cfg.explorerUrl}/tx/${h}`; }
@@ -163,7 +170,7 @@ export class Mirror {
       return;
     }
     try {
-      const res: any = await this.markets.trader.placePerpOrder({ pool: m.poolAddress, isBid: side === "long", price, quantity: qty, orderType: ORDER_TYPE.MARKET });
+      const res: any = await this.place(m, side === "long", price, qty);
       const hash: string = res.hash ?? res.txHash ?? res.receipt?.transactionHash ?? "";
       const filled = (res.fills ?? []).reduce((s: bigint, f: any) => s + BigInt(f.quantityFilled ?? 0n), 0n);
       const filledH = fromBase(filled, m) || human;
@@ -188,7 +195,7 @@ export class Mirror {
       const qty = alignDown(toBase(Math.abs(size), m), BigInt(m.lotSize));
       if (this.cfg.dryRun) { this.j.card({ t: nowIso(), kind: "risk", market: m.baseSymbol, headline: `[dry-run] would close ${fmt(Math.abs(size), 6)} ${m.baseSymbol}: ${reason}`, why: [reason] }); continue; }
       try {
-        const res: any = await this.markets.trader.placePerpOrder({ pool: m.poolAddress, isBid: side === "long", price, quantity: qty, orderType: ORDER_TYPE.MARKET });
+        const res: any = await this.place(m, side === "long", price, qty);
         const hash = res.hash ?? res.txHash ?? "";
         if (hash) this.state.txHashes.push(hash);
         this.j.card({ t: nowIso(), kind: "risk", market: m.baseSymbol, headline: `Closed ${fmt(Math.abs(size), 6)} ${m.baseSymbol} at ~${fmt(mark, 2)}: ${reason}`, why: [reason], txHash: hash, explorer: hash ? this.explorerTx(hash) : undefined });
